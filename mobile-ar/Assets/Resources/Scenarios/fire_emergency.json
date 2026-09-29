@@ -1,0 +1,87 @@
+{
+  "moduleId": "fire_emergency",
+  "title": "Fire & Explosion Emergency",
+  "description": "Practice identifying a fire hazard, raising the alarm, avoiding the danger zone, evacuating safely, and extinguishing a small fire.",
+  "passingScore": 70,
+  "version": 1,
+  "steps": [
+    {
+      "stepId": "identify_hazard",
+      "type": "identify",
+      "instruction": "A fire has broken out near the machinery. Tap the fire to acknowledge the hazard.",
+      "correctAction": "tap_fire",
+      "incorrectActions": [],
+      "points": 10,
+      "critical": false,
+      "feedbackCorrect": "Hazard identified. Stay calm and follow procedure.",
+      "feedbackIncorrect": "You must identify the fire before proceeding.",
+      "hint": "Look for flames and smoke near the machinery ahead of you.",
+      "timeLimitSeconds": 30
+    },
+    {
+      "stepId": "raise_alarm",
+      "type": "interact",
+      "instruction": "Activate the fire alarm to alert other workers in the area.",
+      "correctAction": "activate_alarm",
+      "incorrectActions": [],
+      "points": 15,
+      "critical": false,
+      "feedbackCorrect": "Alarm activated. Other workers have been alerted.",
+      "feedbackIncorrect": "The alarm was not activated correctly.",
+      "hint": "The alarm panel is mounted on the wall, marked with a red light.",
+      "timeLimitSeconds": 25
+    },
+    {
+      "stepId": "avoid_hazard_zone",
+      "type": "avoid",
+      "instruction": "Stay clear of the marked hazard zone around the fire while you plan your next move.",
+      "correctAction": "",
+      "incorrectActions": ["enter_hazard_zone"],
+      "points": 20,
+      "critical": true,
+      "feedbackCorrect": "Good — you kept a safe distance from the fire.",
+      "feedbackIncorrect": "You entered the hazard zone. This is a critical safety violation.",
+      "hint": "Keep at least the marked distance away from the flames.",
+      "timeLimitSeconds": 8
+    },
+    {
+      "stepId": "find_exit",
+      "type": "navigate",
+      "instruction": "Follow the AR arrow to the nearest marked safe exit.",
+      "correctAction": "reach_exit_point",
+      "incorrectActions": [],
+      "points": 15,
+      "critical": false,
+      "feedbackCorrect": "You reached the safe evacuation point.",
+      "feedbackIncorrect": "You did not reach the exit in time.",
+      "hint": "Follow the direction the arrow is pointing.",
+      "timeLimitSeconds": 30
+    },
+    {
+      "stepId": "select_extinguisher",
+      "type": "select",
+      "instruction": "Select the correct fire extinguisher for an electrical/chemical fire (CO2, Class B/C).",
+      "correctAction": "select_co2_extinguisher",
+      "incorrectActions": ["select_water_extinguisher", "select_foam_extinguisher"],
+      "points": 20,
+      "critical": false,
+      "feedbackCorrect": "Correct choice — CO2 extinguishers are safe for electrical/chemical fires.",
+      "feedbackIncorrect": "Wrong extinguisher type — water or foam can be dangerous on this kind of fire.",
+      "hint": "Water conducts electricity — avoid it near machinery fires.",
+      "timeLimitSeconds": 25
+    },
+    {
+      "stepId": "extinguish_fire",
+      "type": "interact",
+      "instruction": "Aim at the base of the fire and use the extinguisher.",
+      "correctAction": "use_extinguisher_on_fire",
+      "incorrectActions": [],
+      "points": 20,
+      "critical": false,
+      "feedbackCorrect": "Fire extinguished. Emergency procedure complete.",
+      "feedbackIncorrect": "The fire was not extinguished correctly.",
+      "hint": "Sweep the extinguisher nozzle across the base of the flames, not the top.",
+      "timeLimitSeconds": 25
+    }
+  ]
+}

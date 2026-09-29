@@ -1,0 +1,761 @@
+{
+  "languageCode": "en",
+  "entries": [
+    {
+      "key": "fire_emergency_title",
+      "value": "Fire & Explosion Emergency"
+    },
+    {
+      "key": "scan_prompt",
+      "value": "Move your phone slowly to scan the floor or a table"
+    },
+    {
+      "key": "tap_to_place",
+      "value": "Tap the highlighted surface to place the training scenario"
+    },
+    {
+      "key": "fire_emergency_description",
+      "value": "Practice identifying a fire hazard, raising the alarm, avoiding the danger zone, evacuating safely, and extinguishing a small fire."
+    },
+    {
+      "key": "fire_emergency_identify_hazard_instruction",
+      "value": "A fire has broken out near the machinery. Tap the fire to acknowledge the hazard."
+    },
+    {
+      "key": "fire_emergency_identify_hazard_feedback_correct",
+      "value": "Hazard identified. Stay calm and follow procedure."
+    },
+    {
+      "key": "fire_emergency_identify_hazard_feedback_incorrect",
+      "value": "You must identify the fire before proceeding."
+    },
+    {
+      "key": "fire_emergency_identify_hazard_hint",
+      "value": "Look for flames and smoke near the machinery ahead of you."
+    },
+    {
+      "key": "fire_emergency_raise_alarm_instruction",
+      "value": "Activate the fire alarm to alert other workers in the area."
+    },
+    {
+      "key": "fire_emergency_raise_alarm_feedback_correct",
+      "value": "Alarm activated. Other workers have been alerted."
+    },
+    {
+      "key": "fire_emergency_raise_alarm_feedback_incorrect",
+      "value": "The alarm was not activated correctly."
+    },
+    {
+      "key": "fire_emergency_raise_alarm_hint",
+      "value": "The alarm panel is mounted on the wall, marked with a red light."
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_instruction",
+      "value": "Stay clear of the marked hazard zone around the fire while you plan your next move."
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_feedback_correct",
+      "value": "Good — you kept a safe distance from the fire."
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_feedback_incorrect",
+      "value": "You entered the hazard zone. This is a critical safety violation."
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_hint",
+      "value": "Keep at least the marked distance away from the flames."
+    },
+    {
+      "key": "fire_emergency_find_exit_instruction",
+      "value": "Follow the AR arrow to the nearest marked safe exit."
+    },
+    {
+      "key": "fire_emergency_find_exit_feedback_correct",
+      "value": "You reached the safe evacuation point."
+    },
+    {
+      "key": "fire_emergency_find_exit_feedback_incorrect",
+      "value": "You did not reach the exit in time."
+    },
+    {
+      "key": "fire_emergency_find_exit_hint",
+      "value": "Follow the direction the arrow is pointing."
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_instruction",
+      "value": "Select the correct fire extinguisher for an electrical/chemical fire (CO2, Class B/C)."
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_feedback_correct",
+      "value": "Correct choice — CO2 extinguishers are safe for electrical/chemical fires."
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_feedback_incorrect",
+      "value": "Wrong extinguisher type — water or foam can be dangerous on this kind of fire."
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_hint",
+      "value": "Water conducts electricity — avoid it near machinery fires."
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_instruction",
+      "value": "Aim at the base of the fire and use the extinguisher."
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_feedback_correct",
+      "value": "Fire extinguished. Emergency procedure complete."
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_feedback_incorrect",
+      "value": "The fire was not extinguished correctly."
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_hint",
+      "value": "Sweep the extinguisher nozzle across the base of the flames, not the top."
+    },
+    {
+      "key": "gas_leak_confined_space_title",
+      "value": "Gas Leak / Confined Space Emergency"
+    },
+    {
+      "key": "gas_leak_confined_space_description",
+      "value": "Practice identifying a gas leak, keeping a safe distance, selecting correct PPE, following the buddy system, reporting the emergency, and evacuating to the assembly point."
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_instruction",
+      "value": "A gas leak has been detected near the confined space entrance. Tap the leak source to acknowledge the hazard."
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_feedback_correct",
+      "value": "Hazard identified. Do not approach the confined space."
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_feedback_incorrect",
+      "value": "You must identify the gas leak before proceeding."
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_hint",
+      "value": "Look for the visible gas/vapor cloud near the entrance."
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_instruction",
+      "value": "Stay outside the marked hazard zone while you assess the situation."
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_feedback_correct",
+      "value": "Good — you maintained a safe distance from the leak."
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_feedback_incorrect",
+      "value": "You entered the gas hazard zone without protection. This is a critical safety violation."
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_hint",
+      "value": "Keep at least the marked distance away from the confined space entrance."
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_instruction",
+      "value": "Select the correct PPE before any further action: full respirator and gas-detection kit."
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_feedback_correct",
+      "value": "Correct — full respirator and gas detector equipped."
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_feedback_incorrect",
+      "value": "Incomplete or missing PPE is not safe for a gas hazard area."
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_hint",
+      "value": "A dust mask or partial gear is not enough for a gas leak."
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_instruction",
+      "value": "Confined space entry rules require a buddy. Choose how you will proceed."
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_feedback_correct",
+      "value": "Correct — never enter a confined space alone."
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_feedback_incorrect",
+      "value": "Entering alone violates confined-space entry procedure. This is a critical safety violation."
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_hint",
+      "value": "Confined space entry always requires at least one other trained worker on standby."
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_instruction",
+      "value": "Report the leak to the control room before any further action is taken."
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_feedback_correct",
+      "value": "Control room notified. Isolation procedure has started."
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_feedback_incorrect",
+      "value": "The leak must be reported to the control room immediately."
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_hint",
+      "value": "Use the radio/emergency panel to contact the control room."
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_instruction",
+      "value": "Follow the AR arrow to the designated safe assembly point."
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_correct",
+      "value": "You reached the safe assembly point. Emergency procedure complete."
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_incorrect",
+      "value": "You did not reach the assembly point in time."
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_hint",
+      "value": "Follow the direction the arrow is pointing, away from the hazard zone."
+    },
+    {
+      "key": "fire_emergency_quiz_q1_question",
+      "value": "What should you do first when you discover a fire?"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option0",
+      "value": "Try to extinguish it yourself"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option1",
+      "value": "Identify the hazard and stay calm"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option2",
+      "value": "Run immediately without alerting anyone"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option3",
+      "value": "Ignore it if it looks small"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_explanation",
+      "value": "Always identify and acknowledge the hazard first before taking further action."
+    },
+    {
+      "key": "fire_emergency_quiz_q2_question",
+      "value": "Why should you activate the fire alarm even if you plan to fight the fire yourself?"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option0",
+      "value": "It's not necessary if you're confident"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option1",
+      "value": "To alert other workers so they can evacuate"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option2",
+      "value": "Alarms are only for large fires"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option3",
+      "value": "To satisfy a paperwork requirement"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_explanation",
+      "value": "Raising the alarm ensures every worker in the area gets a chance to evacuate, regardless of how the fire is handled."
+    },
+    {
+      "key": "fire_emergency_quiz_q3_question",
+      "value": "Which extinguisher type is safe to use on an electrical or chemical fire?"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option0",
+      "value": "Water"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option1",
+      "value": "Foam"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option2",
+      "value": "CO2 (Class B/C)"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option3",
+      "value": "Any extinguisher works the same"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_explanation",
+      "value": "Water and foam can conduct electricity or react dangerously with chemical fires. CO2 extinguishers are the safe choice."
+    },
+    {
+      "key": "fire_emergency_quiz_q4_question",
+      "value": "How close is it safe to stand near an active industrial fire without protective procedure?"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option0",
+      "value": "As close as needed to see clearly"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option1",
+      "value": "Only the marked safe distance away"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option2",
+      "value": "Right next to it if you're quick"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option3",
+      "value": "Distance doesn't matter indoors"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_explanation",
+      "value": "Hazard zones are marked for a reason — staying outside the marked distance is a critical safety requirement, not a suggestion."
+    },
+    {
+      "key": "fire_emergency_quiz_q5_question",
+      "value": "When using a fire extinguisher, where should you aim it?"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option0",
+      "value": "At the top of the flames"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option1",
+      "value": "At the smoke"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option2",
+      "value": "At the base of the fire"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option3",
+      "value": "Anywhere near the fire"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_explanation",
+      "value": "Aiming at the base of the fire targets the fuel source directly, which is what actually puts the fire out."
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_question",
+      "value": "What is the first step after detecting a gas leak near a confined space?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option0",
+      "value": "Enter to check the source"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option1",
+      "value": "Acknowledge the hazard and stay outside the hazard zone"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option2",
+      "value": "Wait for it to dissipate on its own"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option3",
+      "value": "Continue working nearby"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_explanation",
+      "value": "Identify the hazard first, then keep a safe distance — never approach a suspected gas leak directly."
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_question",
+      "value": "What PPE is required before approaching a gas hazard area?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option0",
+      "value": "A dust mask is sufficient"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option1",
+      "value": "No special PPE is needed for short exposure"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option2",
+      "value": "Full respirator and gas-detection kit"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option3",
+      "value": "Regular work gloves only"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_explanation",
+      "value": "Partial protection like a dust mask does not protect against toxic or flammable gases — full respirator and detection equipment are required."
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_question",
+      "value": "Why is the buddy system mandatory for confined space entry?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option0",
+      "value": "It's only a suggestion, not a rule"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option1",
+      "value": "So someone can call for help if something goes wrong"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option2",
+      "value": "To split the workload faster"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option3",
+      "value": "It isn't actually required"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_explanation",
+      "value": "Confined spaces can incapacitate a worker quickly (toxic atmosphere, oxygen deficiency) — a buddy on standby can raise the alarm and get help immediately."
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_question",
+      "value": "What should happen before entering a confined space with a known gas leak?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option0",
+      "value": "Enter immediately to check for injuries"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option1",
+      "value": "Report to the control room and wait for isolation procedures"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option2",
+      "value": "Only tell your supervisor after the fact"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option3",
+      "value": "Nothing — proceed as normal"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_explanation",
+      "value": "The control room needs to be notified so isolation and monitoring procedures can begin before anyone enters."
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_question",
+      "value": "What is the correct action if you accidentally enter the gas hazard zone without proper procedure?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option0",
+      "value": "Continue as if nothing happened"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option1",
+      "value": "This is a critical safety violation — it should never happen and must be reported"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option2",
+      "value": "It's fine as long as you don't smell anything"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option3",
+      "value": "Only a problem if you feel dizzy"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_explanation",
+      "value": "Entering a hazard zone without following procedure is treated as a critical safety failure — the exposure risk exists whether or not symptoms appear immediately."
+    },
+    {
+      "key": "app_name",
+      "value": "Industrial Safety AR Trainer"
+    },
+    {
+      "key": "splash_loading",
+      "value": "Loading..."
+    },
+    {
+      "key": "login_title",
+      "value": "Log In"
+    },
+    {
+      "key": "login_identifier_placeholder",
+      "value": "Worker ID, email, or phone"
+    },
+    {
+      "key": "login_password_placeholder",
+      "value": "Password"
+    },
+    {
+      "key": "login_button",
+      "value": "Log In"
+    },
+    {
+      "key": "login_error_invalid",
+      "value": "Invalid credentials. Please try again."
+    },
+    {
+      "key": "register_title",
+      "value": "Register"
+    },
+    {
+      "key": "register_button",
+      "value": "Create Account"
+    },
+    {
+      "key": "language_select_title",
+      "value": "Select Your Language"
+    },
+    {
+      "key": "language_option_english",
+      "value": "English"
+    },
+    {
+      "key": "language_option_hindi",
+      "value": "हिन्दी (Hindi)"
+    },
+    {
+      "key": "language_option_santali",
+      "value": "Santali"
+    },
+    {
+      "key": "dashboard_welcome",
+      "value": "Welcome back"
+    },
+    {
+      "key": "dashboard_modules_button",
+      "value": "Training Modules"
+    },
+    {
+      "key": "dashboard_history_button",
+      "value": "Training History"
+    },
+    {
+      "key": "dashboard_profile_button",
+      "value": "Profile & Settings"
+    },
+    {
+      "key": "module_list_title",
+      "value": "Training Modules"
+    },
+    {
+      "key": "module_details_start_button",
+      "value": "Start Training"
+    },
+    {
+      "key": "ar_prep_title",
+      "value": "Before You Begin"
+    },
+    {
+      "key": "ar_prep_instructions",
+      "value": "Find an open, well-lit area with a clear floor or tabletop surface. Point your camera at it to begin scanning."
+    },
+    {
+      "key": "ar_scan_prompt",
+      "value": "Move your phone slowly to scan the floor or a table"
+    },
+    {
+      "key": "ar_scan_tap_to_place",
+      "value": "Tap the highlighted surface to place the training scenario"
+    },
+    {
+      "key": "ar_scan_placed_confirm",
+      "value": "Scenario placed!"
+    },
+    {
+      "key": "scenario_result_pass_title",
+      "value": "Scenario Complete"
+    },
+    {
+      "key": "scenario_result_critical_title",
+      "value": "Critical Safety Failure"
+    },
+    {
+      "key": "scenario_result_score_label",
+      "value": "Score"
+    },
+    {
+      "key": "scenario_result_retry_button",
+      "value": "Retry"
+    },
+    {
+      "key": "scenario_result_continue_button",
+      "value": "Continue to Assessment"
+    },
+    {
+      "key": "final_result_passed_title",
+      "value": "PASSED"
+    },
+    {
+      "key": "final_result_failed_title",
+      "value": "Not Passed — Score Too Low"
+    },
+    {
+      "key": "final_result_critical_title",
+      "value": "Not Passed — Critical Safety Failure"
+    },
+    {
+      "key": "final_result_ar_label",
+      "value": "AR Performance"
+    },
+    {
+      "key": "final_result_safety_label",
+      "value": "Safety Decisions"
+    },
+    {
+      "key": "final_result_quiz_label",
+      "value": "Quiz"
+    },
+    {
+      "key": "final_result_final_label",
+      "value": "Final Score"
+    },
+    {
+      "key": "final_result_certificate_button",
+      "value": "View Certificate"
+    },
+    {
+      "key": "certificate_title",
+      "value": "Certificate of Completion"
+    },
+    {
+      "key": "certificate_worker_label",
+      "value": "Worker"
+    },
+    {
+      "key": "certificate_module_label",
+      "value": "Training Module"
+    },
+    {
+      "key": "certificate_score_label",
+      "value": "Score"
+    },
+    {
+      "key": "certificate_issued_label",
+      "value": "Issued"
+    },
+    {
+      "key": "certificate_verify_label",
+      "value": "Scan to verify"
+    },
+    {
+      "key": "scenario_result_critical_generic_message",
+      "value": "A critical safety step was not followed correctly. Review the feedback and try again."
+    },
+    {
+      "key": "quiz_feedback_correct_prefix",
+      "value": "Correct."
+    },
+    {
+      "key": "quiz_feedback_incorrect_prefix",
+      "value": "Not quite."
+    },
+    {
+      "key": "final_result_complete_title",
+      "value": "Assessment Complete"
+    },
+    {
+      "key": "fire_assessment_q1",
+      "value": "What should you do first when you identify a fire?"
+    },
+    {
+      "key": "fire_assessment_q1_a",
+      "value": "Acknowledge the hazard and stay calm"
+    },
+    {
+      "key": "fire_assessment_q1_b",
+      "value": "Run directly toward the fire"
+    },
+    {
+      "key": "fire_assessment_q1_c",
+      "value": "Enter the smoke-filled area"
+    },
+    {
+      "key": "fire_assessment_q1_d",
+      "value": "Ignore it and continue working"
+    },
+
+    {
+      "key": "fire_assessment_q2",
+      "value": "Why should the fire alarm be activated?"
+    },
+    {
+      "key": "fire_assessment_q2_a",
+      "value": "To alert other workers and start the emergency response"
+    },
+    {
+      "key": "fire_assessment_q2_b",
+      "value": "To stop the fire automatically"
+    },
+    {
+      "key": "fire_assessment_q2_c",
+      "value": "To unlock the extinguisher"
+    },
+    {
+      "key": "fire_assessment_q2_d",
+      "value": "To turn off all electricity automatically"
+    },
+
+    {
+      "key": "fire_assessment_q3",
+      "value": "Why must you stay outside the marked hazard zone?"
+    },
+    {
+      "key": "fire_assessment_q3_a",
+      "value": "To reduce exposure to fire, heat and other hazards"
+    },
+    {
+      "key": "fire_assessment_q3_b",
+      "value": "Because the floor inside is always wet"
+    },
+    {
+      "key": "fire_assessment_q3_c",
+      "value": "Because the alarm cannot be heard there"
+    },
+    {
+      "key": "fire_assessment_q3_d",
+      "value": "Because the extinguisher only works from far away"
+    },
+
+    {
+      "key": "fire_assessment_q4",
+      "value": "Which extinguisher is appropriate for an electrical/chemical fire in this training scenario?"
+    },
+    {
+      "key": "fire_assessment_q4_a",
+      "value": "CO2"
+    },
+    {
+      "key": "fire_assessment_q4_b",
+      "value": "Water"
+    },
+    {
+      "key": "fire_assessment_q4_c",
+      "value": "Any extinguisher"
+    },
+    {
+      "key": "fire_assessment_q4_d",
+      "value": "No extinguisher can be used"
+    },
+
+    {
+      "key": "fire_assessment_q5",
+      "value": "Where should the extinguisher be aimed when fighting a small fire?"
+    },
+    {
+      "key": "fire_assessment_q5_a",
+      "value": "At the base of the flames"
+    },
+    {
+      "key": "fire_assessment_q5_b",
+      "value": "At the top of the flames"
+    },
+    {
+      "key": "fire_assessment_q5_c",
+      "value": "At the ceiling"
+    },
+    {
+      "key": "fire_assessment_q5_d",
+      "value": "Away from the fire"
+    },
+    {
+      "key": "assessment_title",
+      "value": "FIRE SAFETY ASSESSMENT"
+    },
+    {
+      "key": "quiz_question_number",
+      "value": "Question"
+    }
+  ]
+}

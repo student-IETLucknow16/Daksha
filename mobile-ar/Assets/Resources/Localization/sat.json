@@ -1,0 +1,812 @@
+{
+  "languageCode": "sat",
+  "_translationStatus": "MACHINE-ASSISTED OL CHIKI DRAFT — all translated values require review by a native Santali/Ol Chiki speaker before real-world safety training deployment.",
+  "entries": [
+    {
+      "key": "fire_emergency_title",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱟᱨ ᱵᱤᱥᱯᱷᱚᱴ ᱡᱚᱨᱩᱨᱤ ᱚᱵᱚᱥᱛᱟ"
+    },
+    {
+      "key": "scan_prompt",
+       "value": "ᱯᱷᱚᱱ ᱫᱷᱤᱨᱮ ᱫᱷᱤᱨᱮ ᱦᱟᱹᱛᱟᱣ ᱢᱮ, ᱡᱟᱹᱭᱜᱟ ᱥᱮ ᱴᱮᱵᱩᱞ ᱥᱠᱟᱱ ᱢᱮ"
+    
+    },
+    {
+      "key": "tap_to_place",
+      "value": "ᱪᱤᱱᱦᱟᱹ ᱡᱟᱹᱭᱜᱟ ᱨᱮ ᱴᱮᱯ ᱠᱟᱛᱮ ᱥᱤᱠᱷᱱᱟᱹᱣ ᱥᱠᱮᱱᱟᱨᱤᱭᱳ ᱛᱷᱟᱯᱚᱱ ᱢᱮ"
+    },
+    {
+      "key": "fire_emergency_description",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱡᱚᱠᱷᱚᱢ ᱧᱮᱞ, ᱟᱞᱟᱨᱢ ᱫᱮᱣᱟ, ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱵᱟᱦᱨᱮ ᱛᱷᱟᱣ, ᱥᱟᱹᱯᱷᱟᱹᱭ ᱵᱟᱹᱞᱟᱹᱭ ᱟᱨ ᱦᱩᱰᱤᱧ ᱯᱷᱟᱭᱟᱨ ᱵᱩᱡᱷᱟᱹᱣ ᱥᱤᱠᱷᱟᱹᱣ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_instruction",
+      "value": "ᱢᱮᱥᱤᱱ ᱠᱷᱚᱱ ᱡᱮ ᱛᱟᱦᱮᱸ ᱯᱷᱟᱭᱟᱨ ᱞᱟᱜᱟᱣ ᱟᱠᱟᱱᱟ। ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱠᱟᱛᱮ ᱯᱷᱟᱭᱟᱨ ᱨᱮ ᱴᱮᱯ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_feedback_correct",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱦᱚᱭᱮᱱᱟ। ᱥᱟᱹᱱᱛᱟᱹ ᱛᱷᱟᱣ ᱟᱨ ᱱᱤᱭᱚᱢ ᱢᱟᱱᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_feedback_incorrect",
+      "value": "ᱡᱟᱦᱟᱱ ᱞᱟᱦᱟ ᱠᱟᱛᱮ ᱯᱩᱭᱞᱩ ᱯᱷᱟᱭᱟᱨ ᱪᱤᱱᱦᱟᱹ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_hint",
+      "value": "ᱢᱮᱥᱤᱱ ᱞᱟᱜᱟᱜ ᱥᱟᱢᱱᱟ ᱨᱮ ᱢᱟᱨᱟᱝ ᱥᱮᱫ ᱟᱨ ᱫᱩᱣᱟᱹ ᱧᱮᱞ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_instruction",
+      "value": "ᱮᱴᱟᱜ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱠᱚ ᱥᱩᱪᱚᱱᱟ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱟᱭᱟᱨ ᱟᱞᱟᱨᱢ ᱪᱟᱹᱞᱩ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_feedback_correct",
+      "value": "ᱟᱞᱟᱨᱢ ᱪᱟᱹᱞᱩ ᱠᱟᱱᱟ। ᱮᱴᱟᱜ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱠᱚ ᱥᱩᱪᱚᱱᱟ ᱧᱟᱢ ᱠᱮᱫᱟ।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_feedback_incorrect",
+      "value": "ᱟᱞᱟᱨᱢ ᱥᱟᱹᱦᱤ ᱞᱮᱠᱟ ᱵᱟᱝ ᱪᱟᱹᱞᱩ ᱦᱚᱭᱮᱱᱟ।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_hint",
+      "value": "ᱟᱞᱟᱨᱢ ᱯᱮᱱᱮᱞ ᱵᱷᱤᱛᱤ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ, ᱨᱮᱰ ᱞᱟᱭᱤᱴ ᱪᱤᱱᱦᱟᱹ ᱟᱠᱟᱱᱟ।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_instruction",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱠᱷᱚᱱ ᱫᱩᱨ ᱛᱷᱟᱣ ᱢᱮ, ᱟᱨ ᱡᱟᱦᱟᱱ ᱠᱟᱹᱢᱤ ᱠᱟᱛᱮ ᱞᱟᱦᱟ ᱥᱟᱶᱛᱮ ᱠᱟᱹᱢᱤ ᱵᱟᱪᱷᱱᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_feedback_correct",
+      "value": "ᱥᱟᱹᱦᱤ — ᱟᱢ ᱯᱷᱟᱭᱟᱨ ᱠᱷᱚᱱ ᱥᱟᱹᱯᱷᱟᱹᱭ ᱫᱩᱨᱤ ᱛᱷᱟᱣ ᱠᱮᱫᱟ।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_feedback_incorrect",
+      "value": "ᱟᱢ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱨᱮ ᱵᱚᱞᱚ ᱠᱮᱫᱟ। ᱱᱚᱣᱟ ᱢᱤᱫ ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ ᱠᱟᱱᱟ।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_hint",
+      "value": "ᱥᱮᱫ ᱠᱷᱚᱱ ᱪᱤᱱᱦᱟᱹ ᱫᱩᱨᱤ ᱠᱷᱚᱱ ᱠᱚᱢ ᱵᱟᱝ ᱛᱷᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_find_exit_instruction",
+      "value": "ᱥᱟᱵᱟᱝ ᱞᱟᱹᱜᱤᱫ ᱪᱤᱱᱦᱟᱹ ᱥᱟᱹᱯᱷᱟᱹᱭ ᱵᱟᱦᱨᱮ ᱫᱷᱟᱹᱨᱟ ᱨᱮ AR ᱛᱤᱨ ᱟᱱᱩᱥᱟᱨ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_find_exit_feedback_correct",
+      "value": "ᱟᱢ ᱥᱟᱹᱯᱷᱟᱹᱭ ᱵᱟᱦᱨᱮ ᱡᱟᱭᱜᱟ ᱨᱮ ᱯᱷᱟᱸᱠᱟᱣ ᱠᱮᱫᱟ।"
+    },
+    {
+      "key": "fire_emergency_find_exit_feedback_incorrect",
+      "value": "ᱟᱢ ᱥᱚᱢᱚᱭ ᱨᱮ ᱵᱟᱦᱨᱮ ᱵᱟᱝ ᱦᱚᱭᱮᱱᱟ।"
+    },
+    {
+      "key": "fire_emergency_find_exit_hint",
+      "value": "ᱛᱤᱨ ᱡᱮ ᱫᱤᱥᱟ ᱨᱮ ᱥᱩᱪᱚᱱᱟ ᱮᱢ ᱠᱟᱱᱟ ᱚᱱᱟ ᱫᱤᱥᱟ ᱟᱱᱩᱥᱟᱨ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_instruction",
+      "value": "ᱵᱤᱡᱽᱞᱤ/ᱠᱮᱢᱤᱠᱟᱞ ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱹᱦᱤ ᱯᱷᱟᱭᱟᱨ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱵᱟᱪᱷᱱᱟᱣ ᱢᱮ (CO2, Class B/C)।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_feedback_correct",
+      "value": "ᱥᱟᱹᱦᱤ ᱵᱟᱪᱷᱱᱟᱣ — CO2 ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱵᱤᱡᱽᱞᱤ/ᱠᱮᱢᱤᱠᱟᱞ ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱹᱦᱤ।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_feedback_incorrect",
+      "value": "ᱵᱷᱩᱞ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ — ᱫᱟᱜ ᱟᱨ ᱯᱷᱳᱢ ᱱᱚᱣᱟ ᱞᱮᱠᱟ ᱯᱷᱟᱭᱟᱨ ᱨᱮ ᱡᱚᱠᱷᱚᱢ ᱦᱚᱭᱚᱜᱼᱟ।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_hint",
+      "value": "ᱫᱟᱜ ᱵᱤᱡᱽᱞᱤ ᱚᱠᱛᱚ ᱞᱟᱹᱜᱤᱫ ᱠᱟᱱᱟ — ᱢᱮᱥᱤᱱ ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱝ ᱵᱮᱵᱚᱦᱟᱨ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_instruction",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱴᱩ ᱵᱟᱹᱲᱤ ᱨᱮ ᱱᱟᱞ ᱛᱷᱟᱣ ᱟᱨ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱵᱮᱵᱚᱦᱟᱨ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_feedback_correct",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱵᱩᱡᱷᱟᱹᱣ ᱠᱟᱱᱟ। ᱡᱚᱨᱩᱨᱤ ᱱᱤᱭᱚᱢ ᱯᱩᱨᱟᱹ ᱦᱚᱭᱮᱱᱟ।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_feedback_incorrect",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱥᱟᱹᱦᱤ ᱞᱮᱠᱟ ᱵᱟᱝ ᱵᱩᱡᱷᱟᱹᱣ ᱦᱚᱭᱮᱱᱟ।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_hint",
+      "value": "ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱱᱟᱞ ᱥᱮᱫ ᱵᱟᱹᱲᱤ ᱵᱟᱹᱲᱤ ᱨᱮ ᱦᱟᱛᱟᱣ ᱢᱮ, ᱪᱮᱛᱟᱱ ᱨᱮ ᱵᱟᱝ।"
+    },
+    {
+      "key": "gas_leak_confined_space_title",
+      "value": "ᱜᱮᱥ ᱞᱤᱠ / ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱡᱚᱨᱩᱨᱤ ᱚᱵᱚᱥᱛᱟ"
+    },
+    {
+      "key": "gas_leak_confined_space_description",
+      "value": "ᱜᱮᱥ ᱞᱤᱠ ᱪᱤᱱᱦᱟᱹ, ᱥᱟᱹᱯᱷᱟᱹᱭ ᱫᱩᱨᱤ ᱛᱷᱟᱣ, ᱥᱟᱹᱦᱤ PPE ᱵᱟᱪᱷᱱᱟᱣ, ᱵᱟᱹᱭᱫᱤ ᱥᱤᱥᱴᱮᱢ ᱢᱟᱱᱟᱣ, ᱡᱚᱨᱩᱨᱤ ᱥᱩᱪᱚᱱᱟ ᱟᱨ ᱟᱥᱮᱢᱵᱞᱤ ᱡᱟᱭᱜᱟ ᱨᱮ ᱵᱟᱦᱨᱮ ᱚᱰᱚᱠ ᱥᱤᱠᱷᱟᱹᱣ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_instruction",
+      "value": "ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱵᱚᱞᱚ ᱡᱟᱭᱜᱟ ᱞᱟᱜᱟᱜ ᱜᱮᱥ ᱞᱤᱠ ᱧᱟᱢ ᱠᱟᱱᱟ। ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱞᱤᱠ ᱥᱨᱳᱛ ᱨᱮ ᱴᱮᱯ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_feedback_correct",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱦᱚᱭᱮᱱᱟ। ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱞᱟᱜᱟ ᱵᱟᱝ ᱞᱟᱦᱟ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_feedback_incorrect",
+      "value": "ᱡᱟᱦᱟᱱ ᱞᱟᱦᱟ ᱠᱟᱛᱮ ᱯᱩᱭᱞᱩ ᱜᱮᱥ ᱞᱤᱠ ᱪᱤᱱᱦᱟᱹ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_hint",
+      "value": "ᱵᱚᱞᱚ ᱡᱟᱭᱜᱟ ᱞᱟᱜᱟ ᱧᱮᱞ ᱠᱟᱱ ᱜᱮᱥ/ᱵᱷᱮᱯᱚᱨ ᱢᱮᱜᱷ ᱧᱮᱞ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_instruction",
+      "value": "ᱟᱢ ᱚᱵᱚᱥᱛᱟ ᱵᱤᱪᱟᱹᱨ ᱡᱚᱦᱚᱠ ᱪᱤᱱᱦᱟᱹ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱵᱟᱦᱨᱮ ᱛᱷᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_feedback_correct",
+      "value": "ᱥᱟᱹᱦᱤ — ᱟᱢ ᱞᱤᱠ ᱠᱷᱚᱱ ᱥᱟᱹᱯᱷᱟᱹᱭ ᱫᱩᱨᱤ ᱛᱷᱟᱣ ᱠᱮᱫᱟ।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_feedback_incorrect",
+      "value": "ᱟᱢ ᱥᱟᱹᱦᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱟᱝ ᱛᱷᱟᱣ ᱠᱟᱛᱮ ᱜᱮᱥ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱨᱮ ᱵᱚᱞᱚ ᱠᱮᱫᱟ। ᱱᱚᱣᱟ ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ ᱠᱟᱱᱟ।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_hint",
+      "value": "ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱵᱚᱞᱚ ᱡᱟᱭᱜᱟ ᱠᱷᱚᱱ ᱪᱤᱱᱦᱟᱹ ᱫᱩᱨᱤ ᱠᱷᱚᱱ ᱠᱚᱢ ᱵᱟᱝ ᱛᱷᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_instruction",
+      "value": "ᱡᱟᱦᱟᱱ ᱞᱟᱦᱟ ᱠᱟᱛᱮ ᱥᱟᱹᱦᱤ PPE ᱵᱟᱪᱷᱱᱟᱣ ᱢᱮ: ᱯᱩᱨᱟᱹ ᱨᱮᱥᱯᱤᱨᱮᱴᱚᱨ ᱟᱨ ᱜᱮᱥ-ᱫᱷᱟᱹᱨᱟ ᱠᱤᱴ।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_feedback_correct",
+      "value": "ᱥᱟᱹᱦᱤ — ᱯᱩᱨᱟᱹ ᱨᱮᱥᱯᱤᱨᱮᱴᱚᱨ ᱟᱨ ᱜᱮᱥ ᱰᱤᱴᱮᱠᱴᱚᱨ ᱞᱟᱹᱜᱟᱣ ᱠᱟᱱᱟ।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_feedback_incorrect",
+      "value": "ᱵᱟᱝ ᱯᱩᱨᱟᱹ PPE ᱥᱮ ᱵᱟᱝ ᱛᱷᱟᱣ PPE ᱜᱮᱥ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱨᱮ ᱥᱟᱹᱦᱤ ᱵᱟᱝ।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_hint",
+      "value": "ᱰᱟᱥᱴ ᱢᱟᱥᱠ ᱥᱮ ᱦᱟᱹᱴᱤᱧ ᱥᱟᱢᱟᱱ ᱜᱮᱥ ᱞᱤᱠ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱝ ᱥᱟᱹᱦᱤ।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_instruction",
+      "value": "ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱵᱚᱞᱚ ᱱᱤᱭᱚᱢ ᱨᱮ ᱵᱟᱹᱭᱫᱤ ᱫᱚᱞ ᱡᱚᱨᱩᱨᱤ। ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ ᱞᱟᱦᱟ ᱢᱮ ᱵᱟᱪᱷᱱᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_feedback_correct",
+      "value": "ᱥᱟᱹᱦᱤ — ᱵᱟᱹᱭᱫᱤ ᱵᱟᱝ ᱛᱷᱟᱣ ᱠᱟᱛᱮ ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱨᱮ ᱵᱟᱝ ᱵᱚᱞᱚ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_feedback_incorrect",
+      "value": "ᱮᱠᱞᱟ ᱵᱚᱞᱚ ᱫᱚ ᱵᱚᱱᱫᱚ-ᱡᱟᱭᱜᱟ ᱱᱤᱭᱚᱢ ᱵᱷᱟᱹᱝᱜᱟᱹᱣᱟ। ᱱᱚᱣᱟ ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_hint",
+      "value": "ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱵᱚᱞᱚ ᱥᱟᱶᱛᱮ ᱟᱨ ᱢᱤᱫ ᱥᱤᱠᱷᱱᱟᱹᱣ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱥᱴᱮᱱᱰᱵᱟᱭ ᱨᱮ ᱛᱷᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_instruction",
+      "value": "ᱟᱨ ᱡᱟᱦᱟᱱ ᱞᱟᱦᱟ ᱠᱟᱛᱮ ᱞᱤᱠ ᱥᱩᱪᱚᱱᱟ ᱠᱚᱱᱴᱨᱳᱞ ᱨᱩᱢ ᱨᱮ ᱮᱢ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_feedback_correct",
+      "value": "ᱠᱚᱱᱴᱨᱳᱞ ᱨᱩᱢ ᱥᱩᱪᱚᱱᱟ ᱧᱟᱢ ᱠᱮᱫᱟ। ᱟᱭᱥᱳᱞᱮᱥᱚᱱ ᱯᱨᱚᱥᱮᱥ ᱮᱦᱚᱵ ᱠᱟᱱᱟ।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_feedback_incorrect",
+      "value": "ᱞᱤᱠ ᱥᱩᱪᱚᱱᱟ ᱠᱚᱱᱴᱨᱳᱞ ᱨᱩᱢ ᱨᱮ ᱫᱷᱟᱹᱨᱤᱡ ᱮᱢ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_hint",
+      "value": "ᱠᱚᱱᱴᱨᱳᱞ ᱨᱩᱢ ᱥᱟᱶᱛᱮ ᱡᱚᱜᱟᱡᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱨᱮᱰᱤᱭᱳ/ᱡᱚᱨᱩᱨᱤ ᱯᱮᱱᱮᱞ ᱵᱮᱵᱚᱦᱟᱨ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_instruction",
+      "value": "ᱪᱤᱱᱦᱟᱹ ᱥᱟᱹᱯᱷᱟᱹᱭ ᱟᱥᱮᱢᱵᱞᱤ ᱡᱟᱭᱜᱟ ᱨᱮ AR ᱛᱤᱨ ᱟᱱᱩᱥᱟᱨ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_correct",
+      "value": "ᱟᱢ ᱥᱟᱹᱯᱷᱟᱹᱭ ᱟᱥᱮᱢᱵᱞᱤ ᱡᱟᱭᱜᱟ ᱨᱮ ᱯᱷᱟᱸᱠᱟᱣ ᱠᱮᱫᱟ। ᱡᱚᱨᱩᱨᱤ ᱯᱨᱚᱥᱮᱰᱭᱩᱨ ᱯᱩᱨᱟᱹ ᱦᱚᱭᱮᱱᱟ।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_incorrect",
+      "value": "ᱟᱢ ᱥᱚᱢᱚᱭ ᱨᱮ ᱟᱥᱮᱢᱵᱞᱤ ᱡᱟᱭᱜᱟ ᱨᱮ ᱵᱟᱝ ᱯᱷᱟᱸᱠᱟᱣ ᱠᱮᱫᱟ।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_hint",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱠᱷᱚᱱ ᱫᱩᱨ ᱠᱟᱛᱮ ᱛᱤᱨ ᱡᱮ ᱫᱤᱥᱟ ᱮᱢ ᱠᱟᱱᱟ ᱚᱱᱟ ᱫᱤᱥᱟ ᱟᱱᱩᱥᱟᱨ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_question",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱧᱮᱞ ᱠᱟᱛᱮ ᱯᱩᱭᱞᱩ ᱪᱮᱫ ᱠᱟᱹᱢᱤ ᱢᱮ?"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option0",
+      "value": "ᱟᱢᱟᱛᱮ ᱵᱩᱡᱷᱟᱹᱣ ᱪᱮᱫ ᱠᱟᱛᱮ ᱥᱮᱫ ᱢᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option1",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱟᱨ ᱥᱟᱹᱱᱛᱟᱹ ᱛᱷᱟᱣ ᱢᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option2",
+      "value": "ᱡᱟᱦᱟᱱ ᱥᱩᱪᱚᱱᱟ ᱵᱟᱝ ᱮᱢ ᱠᱟᱛᱮ ᱫᱷᱟᱹᱣ ᱢᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option3",
+      "value": "ᱡᱟᱣᱜᱮ ᱦᱩᱰᱤᱧ ᱢᱮᱱᱟ ᱢᱮᱱᱛᱮ ᱵᱟᱝ ᱧᱮᱞ ᱢᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_explanation",
+      "value": "ᱡᱟᱦᱟᱱ ᱞᱟᱦᱟ ᱠᱟᱛᱮ ᱯᱩᱭᱞᱩ ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱟᱨ ᱵᱩᱡᱷᱟᱹᱣ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_question",
+      "value": "ᱟᱢ ᱟᱯᱱᱟᱛᱮ ᱯᱷᱟᱭᱟᱨ ᱵᱩᱡᱷᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱛᱟᱭᱟᱨ ᱢᱮᱱᱟ ᱦᱚᱸ ᱯᱷᱟᱭᱟᱨ ᱟᱞᱟᱨᱢ ᱪᱟᱹᱞᱩ ᱪᱮᱫ ᱞᱟᱹᱜᱤᱫ?"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option0",
+      "value": "ᱡᱟᱹᱦᱟᱸ ᱟᱢ ᱱᱤᱨᱵᱷᱟᱹᱨ ᱜᱮ ᱵᱟᱝ ᱡᱚᱨᱩᱨᱤ"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option1",
+      "value": "ᱮᱴᱟᱜ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱠᱚ ᱥᱩᱪᱚᱱᱟ ᱫᱮᱣᱟ ᱟᱨ ᱵᱟᱦᱨᱮ ᱚᱰᱚᱠ ᱞᱟᱹᱜᱤᱫ"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option2",
+      "value": "ᱟᱞᱟᱨᱢ ᱫᱚ ᱠᱮᱵᱚᱞ ᱢᱟᱨᱟᱝ ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option3",
+      "value": "ᱠᱟᱜᱚᱡ ᱠᱟᱹᱢᱤ ᱯᱩᱨᱟᱹ ᱞᱟᱹᱜᱤᱫ"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_explanation",
+      "value": "ᱟᱞᱟᱨᱢ ᱮᱢ ᱠᱟᱛᱮ ᱡᱚᱛᱚ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱵᱟᱦᱨᱮ ᱚᱰᱚᱠ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱪᱚᱱᱟ ᱧᱟᱢ ᱠᱚᱣᱟ।"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_question",
+      "value": "ᱵᱤᱡᱽᱞᱤ ᱥᱮ ᱠᱮᱢᱤᱠᱟᱞ ᱯᱷᱟᱭᱟᱨ ᱨᱮ ᱚᱠᱟ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱥᱟᱹᱦᱤ?"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option0",
+      "value": "ᱫᱟᱜ"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option1",
+      "value": "ᱯᱷᱳᱢ"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option2",
+      "value": "CO2 (Class B/C)"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option3",
+      "value": "ᱡᱟᱦᱟᱱ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱥᱟᱹᱢᱟᱱ"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_explanation",
+      "value": "ᱫᱟᱜ ᱟᱨ ᱯᱷᱳᱢ ᱵᱤᱡᱽᱞᱤ ᱥᱟᱶᱛᱮ ᱡᱚᱠᱷᱚᱢ ᱥᱮ ᱠᱮᱢᱤᱠᱟᱞ ᱯᱷᱟᱭᱟᱨ ᱥᱟᱶᱛᱮ ᱵᱟᱝ ᱥᱟᱹᱦᱤ ᱦᱚᱭᱚᱜᱼᱟ। CO2 ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱵᱟᱪᱷᱱᱟᱣ ᱢᱮ।"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_question",
+      "value": "ᱥᱟᱯᱷᱟᱭ ᱯᱨᱚᱥᱮᱰᱭᱩᱨ ᱵᱟᱝ ᱢᱟᱱᱟᱣ ᱠᱟᱛᱮ ᱪᱟᱞᱟᱜ ᱤᱱᱰᱟᱥᱴᱨᱤᱭᱟᱞ ᱯᱷᱟᱭᱟᱨ ᱞᱟᱜᱟᱜ ᱥᱮᱫ ᱨᱮ ᱪᱮᱫ ᱫᱩᱨᱤ ᱛᱷᱟᱣ ᱥᱟᱹᱦᱤ?"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option0",
+      "value": "ᱧᱮᱞ ᱥᱟᱹᱦᱤ ᱞᱟᱹᱜᱤᱫ ᱡᱮᱞᱟ ᱞᱟᱹᱜᱤ"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option1",
+      "value": "ᱠᱮᱵᱚᱞ ᱪᱤᱱᱦᱟᱹ ᱥᱟᱹᱦᱤ ᱫᱩᱨᱤ ᱨᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option2",
+      "value": "ᱫᱚᱲᱟᱜ ᱯᱟᱦᱴᱟᱹ ᱞᱟᱜᱟᱣ ᱠᱟᱛᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option3",
+      "value": "ᱵᱷᱤᱛᱤ ᱵᱷᱤᱛᱤ ᱨᱮ ᱫᱩᱨᱤ ᱛᱟᱦᱮᱸ ᱵᱟᱝ ᱢᱟᱦᱟᱛᱤᱧ"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_explanation",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱪᱤᱱᱦᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱢᱟᱱᱟᱣᱟᱜ ᱛᱷᱟᱣ ᱫᱚ ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱱᱤᱭᱚᱢ, ᱮᱠᱮᱱ ᱥᱩᱪᱚᱱᱟ ᱵᱟᱝ।"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_question",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱵᱮᱵᱚᱦᱟᱨ ᱚᱠᱛᱚ ᱚᱠᱟ ᱡᱟᱭᱜᱟ ᱨᱮ ᱱᱟᱞ ᱛᱷᱟᱣ ᱢᱮ?"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option0",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱴᱩ ᱪᱮᱛᱟᱱ ᱨᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option1",
+      "value": "ᱫᱩᱣᱟᱹ ᱨᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option2",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱴᱩ ᱵᱟᱹᱲᱤ ᱨᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option3",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱜᱟᱜ ᱡᱟᱦᱟᱱ ᱡᱟᱭᱜᱟ ᱨᱮ"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_explanation",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱴᱩ ᱵᱟᱹᱲᱤ ᱨᱮ ᱱᱟᱞ ᱛᱷᱟᱣ ᱠᱟᱛᱮ ᱯᱷᱟᱭᱟᱨ ᱡᱟᱹᱞᱟᱣ ᱥᱨᱳᱛ ᱨᱮ ᱥᱤᱫᱷᱟ ᱠᱟᱹᱢᱤ ᱦᱚᱭᱚᱜᱼᱟ।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_question",
+      "value": "ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱞᱟᱜᱟᱜ ᱜᱮᱥ ᱞᱤᱠ ᱧᱟᱢ ᱠᱟᱛᱮ ᱯᱩᱭᱞᱩ ᱠᱟᱹᱢᱤ ᱪᱮᱫ?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option0",
+      "value": "ᱥᱨᱳᱛ ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱵᱚᱞᱚ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option1",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱟᱨ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱵᱟᱦᱨᱮ ᱛᱷᱟᱣ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option2",
+      "value": "ᱟᱯᱱᱟᱛᱮ ᱫᱩᱨ ᱦᱚᱭ ᱧᱟᱢ ᱛᱟᱦᱮᱸ ᱛᱟᱠᱚᱣ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option3",
+      "value": "ᱞᱟᱜᱟ ᱨᱮ ᱠᱟᱹᱢᱤ ᱞᱟᱦᱟ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_explanation",
+      "value": "ᱯᱩᱭᱞᱩ ᱡᱚᱠᱷᱚᱢ ᱪᱤᱱᱦᱟᱹ ᱢᱮ, ᱛᱟᱭᱚᱢ ᱥᱟᱹᱯᱷᱟᱹᱭ ᱫᱩᱨᱤ ᱛᱷᱟᱣ ᱢᱮ — ᱥᱟᱱᱫᱮᱦ ᱜᱮᱥ ᱞᱤᱠ ᱞᱟᱜᱟ ᱥᱤᱫᱷᱟ ᱵᱟᱝ ᱞᱟᱦᱟ ᱢᱮ।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_question",
+      "value": "ᱜᱮᱥ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱞᱟᱜᱟ ᱯᱩᱭᱞᱩ ᱚᱠᱟ PPE ᱡᱚᱨᱩᱨᱤ?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option0",
+      "value": "ᱰᱟᱥᱴ ᱢᱟᱥᱠ ᱡᱮ ᱠᱟᱹᱞᱟ ᱡᱚᱨᱩᱨᱤ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option1",
+      "value": "ᱦᱩᱰᱤᱧ ᱥᱚᱢᱚᱭ ᱞᱟᱹᱜᱤᱫ ᱵᱤᱥᱮᱥ PPE ᱵᱟᱝ ᱡᱚᱨᱩᱨᱤ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option2",
+      "value": "ᱯᱩᱨᱟᱹ ᱨᱮᱥᱯᱤᱨᱮᱴᱚᱨ ᱟᱨ ᱜᱮᱥ-ᱰᱤᱴᱮᱠᱥᱚᱱ ᱠᱤᱴ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option3",
+      "value": "ᱥᱟᱫᱷᱟᱨᱚᱱ ᱠᱟᱹᱢᱤ ᱡᱚᱛᱚ ᱦᱟᱛ ᱢᱟᱥᱠ ᱜᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_explanation",
+      "value": "ᱰᱟᱥᱴ ᱢᱟᱥᱠ ᱞᱮᱠᱟ ᱦᱟᱹᱴᱤᱧ ᱥᱟᱯᱷᱟᱭ ᱜᱮᱥ ᱠᱷᱚᱱ ᱵᱟᱝ ᱨᱟᱠᱷᱟ ᱠᱟᱱᱟ — ᱯᱩᱨᱟᱹ ᱨᱮᱥᱯᱤᱨᱮᱴᱚᱨ ᱟᱨ ᱰᱤᱴᱮᱠᱥᱚᱱ ᱥᱟᱢᱟᱱ ᱡᱚᱨᱩᱨᱤ।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_question",
+      "value": "ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱵᱚᱞᱚ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱹᱭᱫᱤ ᱥᱤᱥᱴᱮᱢ ᱵᱟᱝ ᱵᱟᱹᱫᱷᱚ ᱪᱮᱫ ᱞᱟᱹᱜᱤᱫ?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option0",
+      "value": "ᱱᱚᱣᱟ ᱠᱮᱵᱚᱞ ᱥᱚᱞᱦᱟ, ᱱᱤᱭᱚᱢ ᱵᱟᱝ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option1",
+      "value": "ᱡᱟᱦᱟᱱ ᱵᱷᱩᱞ ᱦᱚᱭᱚᱜ ᱠᱷᱟᱱ ᱢᱤᱫᱟᱹᱜ ᱦᱚᱲ ᱥᱟᱦᱟᱭ ᱞᱟᱹᱜᱤᱫ ᱠᱟᱛᱮ ᱥᱩᱪᱚᱱᱟ ᱫᱮᱣᱟ ᱮᱢ ᱠᱟᱱᱟ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option2",
+      "value": "ᱠᱟᱹᱢᱤ ᱪᱟᱞᱟᱣ ᱛᱮᱡ ᱠᱟᱛᱮ ᱵᱟᱴᱟ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option3",
+      "value": "ᱱᱚᱣᱟ ᱥᱟᱹᱦᱤ ᱵᱟᱝ ᱡᱚᱨᱩᱨᱤ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_explanation",
+      "value": "ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱨᱮ ᱵᱤᱥ ᱜᱮᱥ ᱥᱮ ᱚᱠᱥᱤᱡᱮᱱ ᱠᱚᱢ ᱠᱷᱚᱱ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱡᱟᱞᱫᱤ ᱵᱟᱹᱭᱟᱹᱠ ᱦᱚᱭᱚᱜ ᱫᱟᱲᱮᱭᱟ। ᱵᱟᱹᱭᱫᱤ ᱛᱷᱟᱣ ᱠᱟᱛᱮ ᱥᱩᱪᱚᱱᱟ ᱟᱨ ᱥᱟᱦᱟᱭ ᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱡᱚᱨᱩᱨᱤ।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_question",
+      "value": "ᱧᱟᱢ ᱠᱟᱱ ᱜᱮᱥ ᱞᱤᱠ ᱥᱟᱶᱛᱮ ᱵᱚᱱᱫᱚ ᱡᱟᱭᱜᱟ ᱨᱮ ᱵᱚᱞᱚ ᱢᱟᱲᱟᱝ ᱪᱮᱫ ᱦᱚᱭᱚᱜ ᱟᱹᱛᱟ?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option0",
+      "value": "ᱡᱟᱞᱫᱤ ᱵᱚᱞᱚ ᱢᱮ ᱟᱨ ᱡᱚᱠᱷᱚᱢ ᱦᱚᱲ ᱧᱮᱞ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option1",
+      "value": "ᱠᱚᱱᱴᱨᱳᱞ ᱨᱩᱢ ᱨᱮ ᱥᱩᱪᱚᱱᱟ ᱮᱢ ᱟᱨ ᱟᱭᱥᱳᱞᱮᱥᱚᱱ ᱯᱨᱚᱥᱮᱰᱭᱩᱨ ᱛᱟᱠᱚᱣ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option2",
+      "value": "ᱯᱟᱪᱷᱮ ᱥᱩᱯᱨᱵᱟᱭᱡᱟᱨ ᱠᱮ ᱥᱩᱪᱚᱱᱟ ᱮᱢ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option3",
+      "value": "ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱝ — ᱥᱟᱫᱷᱟᱨᱚᱱ ᱞᱮᱠᱟ ᱞᱟᱦᱟ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_explanation",
+      "value": "ᱵᱚᱞᱚ ᱞᱟᱦᱟ ᱯᱩᱭᱞᱩ ᱠᱚᱱᱴᱨᱳᱞ ᱨᱩᱢ ᱥᱩᱪᱚᱱᱟ ᱧᱟᱢ ᱠᱟᱛᱮ ᱟᱭᱥᱳᱞᱮᱥᱚᱱ ᱟᱨ ᱢᱚᱱᱤᱴᱚᱨᱤᱝ ᱯᱨᱚᱥᱮᱰᱭᱩᱨ ᱮᱦᱚᱵ ᱦᱚᱭᱚᱜ ᱞᱟᱹᱜᱤᱫ।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_question",
+      "value": "ᱥᱟᱹᱦᱤ ᱯᱨᱚᱥᱮᱰᱭᱩᱨ ᱵᱟᱝ ᱢᱟᱱᱟᱣ ᱠᱟᱛᱮ ᱜᱮᱥ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱨᱮ ᱵᱚᱞᱚ ᱠᱟᱛᱮ ᱵᱷᱩᱞ ᱦᱚᱭᱮᱱ ᱠᱷᱟᱱ ᱪᱮᱫ ᱠᱟᱹᱢᱤ ᱢᱮ?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option0",
+      "value": "ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱝ ᱦᱚᱭᱮᱱ ᱞᱮᱠᱟ ᱞᱟᱦᱟ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option1",
+      "value": "ᱱᱚᱣᱟ ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ — ᱱᱚᱣᱟ ᱵᱟᱝ ᱦᱚᱭᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱟᱨ ᱥᱩᱪᱚᱱᱟ ᱮᱢ ᱢᱮ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option2",
+      "value": "ᱡᱟᱹᱦᱟᱸ ᱥᱩᱜᱟᱹᱱ ᱵᱟᱝ ᱵᱟᱹᱥᱟᱣ ᱞᱮᱠᱟ ᱥᱟᱹᱦᱤ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option3",
+      "value": "ᱮᱠᱮᱱ ᱵᱷᱩᱞ ᱡᱮᱫ ᱧᱟᱢ ᱛᱟᱢ ᱞᱮᱠᱟ"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_explanation",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱨᱮ ᱵᱟᱝ ᱱᱤᱭᱚᱢ ᱢᱟᱱᱟᱣ ᱠᱟᱛᱮ ᱵᱚᱞᱚ ᱫᱚ ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ। ᱞᱟᱦᱟᱱᱛᱤ ᱥᱩᱜᱟᱹᱱ ᱧᱮᱞ ᱵᱟᱝ ᱞᱟᱹᱜᱤᱱ ᱦᱚᱸ ᱡᱚᱠᱷᱚᱢ ᱢᱮᱱᱟᱜᱼᱟ।"
+    },
+    {
+      "key": "app_name",
+      "value": "ᱤᱱᱰᱟᱥᱴᱨᱤᱭᱟᱞ ᱥᱟᱯᱷᱟᱭ AR ᱴᱨᱮᱱᱟᱨ"
+    },
+    {
+      "key": "splash_loading",
+      "value": "ᱞᱳᱰ ᱦᱚᱭᱚᱜ ᱠᱟᱱᱟ..."
+    },
+    {
+      "key": "login_title",
+      "value": "ᱞᱚᱜᱤᱱ"
+    },
+    {
+      "key": "login_identifier_placeholder",
+      "value": "ᱠᱟᱹᱢᱤ ID, ᱤᱢᱮᱞ, ᱥᱮ ᱯᱷᱳᱱ"
+    },
+    {
+      "key": "login_password_placeholder",
+      "value": "ᱯᱟᱥᱣᱟᱨᱰ"
+    },
+    {
+      "key": "login_button",
+      "value": "ᱞᱚᱜᱤᱱ"
+    },
+    {
+      "key": "login_error_invalid",
+      "value": "ᱯᱟᱥᱣᱟᱨᱰ ᱵᱟᱝ ᱥᱟᱹᱦᱤ। ᱫᱚᱦᱲᱟ ᱪᱮᱥᱴᱟ ᱢᱮ।"
+    },
+    {
+      "key": "register_title",
+      "value": "ᱨᱮᱡᱤᱥᱴᱟᱨ"
+    },
+    {
+      "key": "register_button",
+      "value": "ᱮᱠᱟᱣᱩᱱᱴ ᱵᱟᱹᱱᱟᱣ ᱢᱮ"
+    },
+    {
+      "key": "language_select_title",
+      "value": "ᱟᱢᱟᱜ ᱯᱟᱹᱱᱛᱤ ᱵᱟᱪᱷᱱᱟᱣ ᱢᱮ"
+    },
+    {
+      "key": "language_option_english",
+      "value": "English"
+    },
+    {
+      "key": "language_option_hindi",
+      "value": "ᱦᱤᱱᱫᱤ (Hindi)"
+    },
+    {
+      "key": "language_option_santali",
+      "value": "ᱥᱟᱱᱛᱟᱲᱤ"
+    },
+    {
+      "key": "dashboard_welcome",
+      "value": "ᱫᱚᱦᱲᱟ ᱧᱮᱞ ᱢᱮ"
+    },
+    {
+      "key": "dashboard_modules_button",
+      "value": "ᱴᱨᱮᱱᱤᱝ ᱢᱳᱰᱭᱩᱞ"
+    },
+    {
+      "key": "dashboard_history_button",
+      "value": "ᱴᱨᱮᱱᱤᱝ ᱦᱤᱥᱴᱚᱨᱤ"
+    },
+    {
+      "key": "dashboard_profile_button",
+      "value": "ᱯᱨᱳᱯᱷᱟᱭᱤᱞ ᱟᱨ ᱥᱮᱴᱤᱝ"
+    },
+    {
+      "key": "module_list_title",
+      "value": "ᱴᱨᱮᱱᱤᱝ ᱢᱳᱰᱭᱩᱞ"
+    },
+    {
+      "key": "module_details_start_button",
+      "value": "ᱴᱨᱮᱱᱤᱝ ᱮᱦᱚᱵ ᱢᱮ"
+    },
+    {
+      "key": "ar_prep_title",
+      "value": "ᱮᱦᱚᱵ ᱯᱩᱭᱞᱩ"
+    },
+    {
+      "key": "ar_prep_instructions",
+      "value": "ᱢᱤᱫ ᱠᱷᱟᱹᱞᱤ, ᱡᱚᱛᱚ ᱧᱮᱞ ᱡᱟᱭᱜᱟ ᱨᱮ ᱪᱟᱞᱟᱣ ᱢᱮ। ᱯᱷᱚᱱ ᱠᱮᱢᱮᱨᱟ ᱥᱮᱨᱮᱧ ᱢᱮ ᱟᱨ ᱥᱠᱟᱱ ᱮᱦᱚᱵ ᱢᱮ।"
+    },
+    {
+      "key": "ar_scan_prompt",
+      "value": "ᱯᱷᱚᱱ ᱫᱷᱤᱨᱮ ᱫᱷᱤᱨᱮ ᱦᱟᱹᱛᱟᱣ ᱢᱮ, ᱡᱟᱹᱭᱜᱟ ᱥᱮ ᱴᱮᱵᱩᱞ ᱥᱠᱟᱱ ᱢᱮ"
+    },
+    {
+      "key": "ar_scan_tap_to_place",
+      "value": "ᱪᱤᱱᱦᱟᱹ ᱡᱟᱭᱜᱟ ᱨᱮ ᱴᱮᱯ ᱠᱟᱛᱮ ᱥᱤᱠᱷᱱᱟᱹᱣ ᱥᱠᱮᱱᱟᱨᱤᱭᱳ ᱛᱷᱟᱯᱚᱱ ᱢᱮ"
+    },
+    {
+      "key": "ar_scan_placed_confirm",
+      "value": "ᱥᱠᱮᱱᱟᱨᱤᱭᱳ ᱛᱷᱟᱯᱚᱱ ᱦᱚᱭᱮᱱᱟ!"
+    },
+    {
+      "key": "scenario_result_pass_title",
+      "value": "ᱥᱠᱮᱱᱟᱨᱤᱭᱳ ᱯᱩᱨᱟᱹ"
+    },
+    {
+      "key": "scenario_result_critical_title",
+      "value": "ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ"
+    },
+    {
+      "key": "scenario_result_score_label",
+      "value": "ᱥᱠᱳᱨ"
+    },
+    {
+      "key": "scenario_result_retry_button",
+      "value": "ᱫᱚᱦᱲᱟ"
+    },
+    {
+      "key": "scenario_result_continue_button",
+      "value": "ᱢᱩᱞᱭᱟᱹᱝᱠᱚᱱ ᱨᱮ ᱞᱟᱦᱟ"
+    },
+    {
+      "key": "final_result_passed_title",
+      "value": "ᱯᱟᱥ"
+    },
+    {
+      "key": "final_result_failed_title",
+      "value": "ᱯᱟᱥ ᱵᱟᱝ — ᱥᱠᱳᱨ ᱠᱚᱢ"
+    },
+    {
+      "key": "final_result_critical_title",
+      "value": "ᱯᱟᱥ ᱵᱟᱝ — ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ"
+    },
+    {
+      "key": "final_result_ar_label",
+      "value": "AR ᱠᱟᱹᱢᱤ"
+    },
+    {
+      "key": "final_result_safety_label",
+      "value": "ᱥᱟᱯᱷᱟᱭ ᱵᱟᱪᱷᱱᱟᱣ"
+    },
+    {
+      "key": "final_result_quiz_label",
+      "value": "ᱠᱩᱣᱤᱡ"
+    },
+    {
+      "key": "final_result_final_label",
+      "value": "ᱪᱩᱲᱟᱹᱱᱛᱤ ᱥᱠᱳᱨ"
+    },
+    {
+      "key": "final_result_certificate_button",
+      "value": "ᱥᱟᱹᱴᱤᱯᱷᱤᱠᱮᱴ ᱧᱮᱞ ᱢᱮ"
+    },
+    {
+      "key": "certificate_title",
+      "value": "ᱯᱩᱨᱟᱹ ᱠᱟᱹᱢᱤ ᱥᱟᱹᱴᱤᱯᱷᱤᱠᱮᱴ"
+    },
+    {
+      "key": "certificate_worker_label",
+      "value": "ᱠᱟᱹᱢᱤᱭᱟᱹ"
+    },
+    {
+      "key": "certificate_module_label",
+      "value": "ᱴᱨᱮᱱᱤᱝ ᱢᱳᱰᱭᱩᱞ"
+    },
+    {
+      "key": "certificate_score_label",
+      "value": "ᱥᱠᱳᱨ"
+    },
+    {
+      "key": "certificate_issued_label",
+      "value": "ᱮᱢ ᱠᱟᱱᱟ"
+    },
+    {
+      "key": "certificate_verify_label",
+      "value": "ᱵᱟᱹᱞᱟᱣ ᱠᱟᱛᱮ ᱵᱤᱥᱣᱟᱥ ᱢᱮ"
+    },
+    {
+      "key": "scenario_result_critical_generic_message",
+      "value": "ᱢᱤᱫ ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱫᱟᱹᱭᱛᱚ ᱥᱟᱹᱦᱤ ᱞᱮᱠᱟ ᱵᱟᱝ ᱦᱚᱭᱮᱱᱟ। ᱥᱩᱪᱚᱱᱟ ᱯᱟᱹᱲᱦᱟᱹᱣ ᱟᱨ ᱫᱚᱦᱲᱟ ᱪᱮᱥᱴᱟ ᱢᱮ।"
+    },
+    {
+      "key": "quiz_feedback_correct_prefix",
+      "value": "ᱥᱟᱹᱦᱤ।"
+    },
+    {
+      "key": "quiz_feedback_incorrect_prefix",
+      "value": "ᱵᱟᱝ ᱥᱟᱹᱦᱤ।"
+    },
+    {
+      "key": "final_result_complete_title",
+      "value": "ᱢᱩᱞᱭᱟᱹᱝᱠᱚᱱ ᱯᱩᱨᱟᱹ"
+    },
+    {
+      "key": "assessment_title",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱥᱟᱯᱷᱟᱭ ᱢᱩᱞᱭᱟᱹᱝᱠᱚᱱ"
+    },
+    {
+      "key": "quiz_question_number",
+      "value": "ᱠᱩᱞ"
+    },
+    {
+      "key": "quiz_select_answer",
+      "value": "ᱢᱤᱫ ᱡᱚᱵᱟᱵ ᱵᱟᱪᱷᱱᱟᱣ ᱢᱮ"
+    },
+    {
+      "key": "quiz_next_button",
+      "value": "ᱛᱟᱭᱚᱢ"
+    },
+    {
+      "key": "assessment_result_title",
+      "value": "ᱢᱩᱞᱭᱟᱹᱝᱠᱚᱱ ᱯᱷᱟᱞ"
+    },
+    {
+      "key": "quiz_retry_button",
+      "value": "ᱫᱚᱦᱲᱟ ᱪᱮᱥᱴᱟ"
+    },
+    {
+      "key": "assessment_ar_score",
+      "value": "AR ᱥᱠᱳᱨ"
+    },
+    {
+      "key": "assessment_safety_score",
+      "value": "ᱥᱟᱯᱷᱟᱭ ᱥᱠᱳᱨ"
+    },
+    {
+      "key": "assessment_quiz_score",
+      "value": "ᱠᱩᱣᱤᱡ ᱥᱠᱳᱨ"
+    },
+    {
+      "key": "assessment_final_score",
+      "value": "ᱪᱩᱲᱟᱹᱱᱛᱤ ᱥᱠᱳᱨ"
+    },
+    {
+      "key": "assessment_passed",
+      "value": "ᱯᱟᱥ ᱦᱚᱭᱮᱱᱟ"
+    },
+    {
+      "key": "assessment_critical_failure",
+      "value": "ᱡᱚᱨᱩᱨᱤ ᱥᱟᱯᱷᱟᱭ ᱵᱷᱩᱞ"
+    },
+    {
+      "key": "assessment_failed",
+      "value": "ᱯᱟᱥ ᱵᱟᱝ ᱦᱚᱭᱮᱱᱟ"
+    },
+    {
+      "key": "quiz_feedback_correct",
+      "value": "ᱥᱟᱹᱦᱤ ᱡᱚᱵᱟᱵ"
+    },
+    {
+      "key": "quiz_feedback_incorrect",
+      "value": "ᱵᱷᱩᱞ ᱡᱚᱵᱟᱵ"
+    },
+    {
+      "key": "fire_assessment_q1",
+      "value": "ᱢᱤᱫ ᱜᱟᱹᱞ ᱯᱷᱟᱭᱟᱨ ᱧᱮᱞ ᱠᱟᱛᱮ ᱯᱩᱭᱞᱩ ᱪᱮᱫ ᱠᱟᱹᱢᱤ ᱞᱮᱠᱟ ᱢᱮ?"
+    },
+    {
+      "key": "fire_assessment_q1_`",
+      "value": "ᱟᱢᱟᱛᱮ ᱵᱩᱡᱷᱟᱹᱣ ᱪᱮᱫ ᱠᱟᱛᱮ ᱥᱮᱫ ᱢᱮ"
+    },
+    {
+      "key": "fire_assessment_q1_a",
+      "value": "ᱡᱚᱠᱷᱚᱢ ᱥᱮ ᱦᱚᱥᱭᱟᱹᱨ ᱠᱟᱛᱮ ᱥᱟᱹᱱᱛᱟᱹ ᱛᱷᱟᱣ ᱢᱮ"
+    },
+    {
+      "key": "fire_assessment_q1_b",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱨᱮ ᱥᱤᱫᱷᱟ ᱫᱟᱹᱲᱟᱣ ᱢᱮ"
+    },
+    {
+      "key": "fire_assessment_q1_c",
+      "value": "ᱫᱩᱣᱟᱹᱨ ᱫᱷᱩᱣᱟᱹ ᱛᱷᱟᱣ ᱨᱮ ᱵᱚᱞᱚ ᱢᱮ"
+    },
+    {
+      "key": "fire_assessment_q2",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱟᱞᱟᱨᱢ ᱠᱮᱱᱟ ᱪᱟᱹᱞᱩ ᱠᱟᱱᱟ ᱪᱮᱫ ᱞᱟᱹᱜᱤᱫ?"
+    },
+    {
+      "key": "fire_assessment_q2_`",
+      "value": "ᱡᱟᱹᱦᱟᱸ ᱟᱢ ᱱᱤᱨᱵᱷᱟᱹᱨ ᱜᱮ ᱵᱟᱝ ᱡᱚᱨᱩᱨᱤ"
+    },
+    {
+      "key": "fire_assessment_q2_a",
+      "value": "ᱮᱴᱟᱜ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱠᱚᱣᱟᱜ ᱥᱟᱶᱛᱮ ᱥᱩᱪᱚᱱᱟ ᱫᱮᱣᱟ ᱟᱨ ᱡᱚᱨᱩᱨᱤ ᱠᱟᱹᱢᱤ ᱮᱦᱚᱵ ᱠᱟᱛᱮ"
+    },
+    {
+      "key": "fire_assessment_q2_b",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱟᱯᱱᱟᱛᱮ ᱢᱟᱨᱟᱝ ᱵᱩᱡᱷᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ"
+    },
+    {
+      "key": "fire_assessment_q2_c",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱵᱟᱹᱛᱤ ᱞᱟᱹᱜᱤᱫ"
+    },
+    {
+      "key": "fire_assessment_q3",
+      "value": "ᱪᱮᱫ ᱞᱟᱹᱜᱤᱫ ᱟᱢ ᱪᱤᱱᱦᱟᱹ ᱡᱚᱠᱷᱚᱢ ᱡᱚᱱᱚᱝ ᱵᱟᱦᱨᱮ ᱛᱷᱟᱣ ᱢᱮ?"
+    },
+    {
+      "key": "fire_assessment_q3_`",
+      "value": "ᱫᱟᱜ"
+    },
+    {
+      "key": "fire_assessment_q3_a",
+      "value": "ᱯᱷᱟᱭᱟᱨ, ᱜᱟᱢ ᱟᱨ ᱮᱴᱟᱜ ᱡᱚᱠᱷᱚᱢ ᱠᱷᱚᱱ ᱥᱚᱢᱵᱚᱱᱫᱷ ᱠᱚᱢ ᱠᱟᱛᱮ"
+    },
+    {
+      "key": "fire_assessment_q3_b",
+      "value": "ᱪᱮᱞᱟ ᱡᱟᱭᱜᱟ ᱨᱮ ᱫᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ"
+    },
+    {
+      "key": "fire_assessment_q3_c",
+      "value": "ᱚᱱᱰᱮ ᱟᱞᱟᱨᱢ ᱵᱟᱝ ᱟᱭᱢᱟ"
+    },
+    {
+      "key": "fire_assessment_q4",
+      "value": "ᱱᱚᱣᱟ ᱥᱤᱠᱷᱱᱟᱹᱣ ᱡᱚᱨᱩᱨᱤ ᱨᱮ ᱵᱤᱡᱽᱞᱤ/ᱠᱮᱢᱤᱠᱟᱞ ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱟ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱵᱟᱭ ᱡᱚᱨᱩᱨᱤ?"
+    },
+    {
+      "key": "fire_assessment_q4_`",
+      "value": "ᱧᱮᱞ ᱥᱟᱹᱦᱤ ᱞᱟᱹᱜᱤᱫ ᱡᱮᱞᱟ ᱞᱟᱹᱜᱤ"
+    },
+    {
+      "key": "fire_assessment_q4_a",
+      "value": "CO2"
+    },
+    {
+      "key": "fire_assessment_q4_b",
+      "value": "ᱫᱟᱜ"
+    },
+    {
+      "key": "fire_assessment_q4_c",
+      "value": "ᱡᱟᱦᱟᱱ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ"
+    },
+    {
+      "key": "fire_assessment_q5",
+      "value": "ᱢᱤᱫ ᱦᱩᱰᱤᱧ ᱯᱷᱟᱭᱟᱨ ᱵᱩᱡᱷᱟᱹᱣ ᱥᱟᱢᱟᱭ ᱨᱮ ᱮᱠᱥᱴᱤᱝᱜᱩᱭᱥᱟᱹᱨ ᱚᱠᱟ ᱡᱟᱭᱜᱟ ᱨᱮ ᱛᱷᱟᱣ ᱢᱮ?"
+    },
+    {
+      "key": "fire_assessment_q5_`",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱴᱩ ᱪᱮᱛᱟᱱ ᱨᱮ"
+    },
+    {
+      "key": "fire_assessment_q5_a",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱴᱩ ᱵᱟᱹᱲᱤ ᱨᱮ"
+    },
+    {
+      "key": "fire_assessment_q5_b",
+      "value": "ᱯᱷᱟᱭᱟᱨ ᱞᱟᱹᱴᱩ ᱪᱮᱛᱟᱱ ᱨᱮ"
+    },
+    {
+      "key": "fire_assessment_q5_c",
+      "value": "ᱪᱟᱛ ᱨᱮ"
+    }
+   
+  ]
+}

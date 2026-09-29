@@ -1,0 +1,16 @@
+{
+  "name": "sih26041-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain layer for SIH26041 certificate verification",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deployCertificateRegistry.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.2.0",
+    "hardhat": "^3.18.0",
+    "typescript": "~6.0.3"
+  }
+}

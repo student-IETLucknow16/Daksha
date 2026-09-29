@@ -1,0 +1,95 @@
+{
+  "moduleId": "gas_leak_confined_space",
+  "title": "Gas Leak & Confined Space Safety",
+  "description": "Practice identifying a gas leak, maintaining a safe distance, selecting PPE, confirming the buddy system, following emergency procedures, and evacuating safely.",
+  "passingScore": 70,
+  "version": 1,
+  "steps": [
+    {
+      "stepId": "identify_leak",
+      "type": "identify",
+      "instruction": "gas_leak_confined_space_identify_leak_instruction",
+      "correctAction": "identify_gas_leak",
+      "incorrectActions": [],
+      "points": 10,
+      "critical": false,
+      "feedbackCorrect": "gas_leak_confined_space_identify_leak_feedback_correct",
+      "feedbackIncorrect": "gas_leak_confined_space_identify_leak_feedback_incorrect",
+      "hint": "gas_leak_confined_space_identify_leak_hint",
+      "timeLimitSeconds": 30
+    },
+    {
+      "stepId": "maintain_safe_distance",
+      "type": "avoid",
+      "instruction": "gas_leak_confined_space_maintain_safe_distance_instruction",
+      "correctAction": "",
+      "incorrectActions": [
+        "enter_gas_hazard_zone"
+      ],
+      "points": 20,
+      "critical": true,
+      "feedbackCorrect": "gas_leak_confined_space_maintain_safe_distance_feedback_correct",
+      "feedbackIncorrect": "gas_leak_confined_space_maintain_safe_distance_feedback_incorrect",
+      "hint": "gas_leak_confined_space_maintain_safe_distance_hint",
+      "timeLimitSeconds": 10
+    },
+    {
+      "stepId": "select_ppe",
+      "type": "select",
+      "instruction": "gas_leak_confined_space_select_ppe_instruction",
+      "correctAction": "select_required_ppe",
+      "incorrectActions": [
+        "select_incomplete_ppe"
+      ],
+      "points": 20,
+      "critical": false,
+      "feedbackCorrect": "gas_leak_confined_space_select_ppe_feedback_correct",
+      "feedbackIncorrect": "gas_leak_confined_space_select_ppe_feedback_incorrect",
+      "hint": "gas_leak_confined_space_select_ppe_hint",
+      "timeLimitSeconds": 30
+    },
+    {
+      "stepId": "confirm_buddy_system",
+      "type": "interact",
+      "instruction": "gas_leak_confined_space_confirm_buddy_system_instruction",
+      "correctAction": "confirm_buddy_system",
+      "incorrectActions": [
+        "enter_confined_space_alone"
+      ],
+      "points": 15,
+      "critical": true,
+      "feedbackCorrect": "gas_leak_confined_space_confirm_buddy_system_feedback_correct",
+      "feedbackIncorrect": "gas_leak_confined_space_confirm_buddy_system_feedback_incorrect",
+      "hint": "gas_leak_confined_space_confirm_buddy_system_hint",
+      "timeLimitSeconds": 25
+    },
+    {
+      "stepId": "follow_emergency_procedure",
+      "type": "interact",
+      "instruction": "gas_leak_confined_space_follow_emergency_procedure_instruction",
+      "correctAction": "follow_emergency_procedure",
+      "incorrectActions": [
+        "enter_confined_space"
+      ],
+      "points": 15,
+      "critical": true,
+      "feedbackCorrect": "gas_leak_confined_space_follow_emergency_procedure_feedback_correct",
+      "feedbackIncorrect": "gas_leak_confined_space_follow_emergency_procedure_feedback_incorrect",
+      "hint": "gas_leak_confined_space_follow_emergency_procedure_hint",
+      "timeLimitSeconds": 30
+    },
+    {
+      "stepId": "evacuate_to_assembly_point",
+      "type": "navigate",
+      "instruction": "gas_leak_confined_space_evacuate_to_assembly_point_instruction",
+      "correctAction": "reach_assembly_point",
+      "incorrectActions": [],
+      "points": 20,
+      "critical": false,
+      "feedbackCorrect": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_correct",
+      "feedbackIncorrect": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_incorrect",
+      "hint": "gas_leak_confined_space_evacuate_to_assembly_point_hint",
+      "timeLimitSeconds": 30
+    }
+  ]
+}

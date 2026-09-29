@@ -1,0 +1,2 @@
+C:\Users\palak\Downloads\SIH26041-phase1\SIH26041\mobile-ar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\palak\Downloads\SIH26041-phase1\SIH26041\mobile-ar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt

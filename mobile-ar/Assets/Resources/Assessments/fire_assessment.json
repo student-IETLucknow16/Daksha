@@ -1,0 +1,66 @@
+{
+  "moduleId": "fire_emergency",
+  "passingScore": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "fire_assessment_q1",
+      "options": [
+        "fire_assessment_q1_a",
+        "fire_assessment_q1_b",
+        "fire_assessment_q1_c",
+        "fire_assessment_q1_d"
+      ],
+      "correctOptionIndex": 0,
+      "safetyWeight": 20
+    },
+    {
+      "id": "q2",
+      "question": "fire_assessment_q2",
+      "options": [
+        "fire_assessment_q2_a",
+        "fire_assessment_q2_b",
+        "fire_assessment_q2_c",
+        "fire_assessment_q2_d"
+      ],
+      "correctOptionIndex": 0,
+      "safetyWeight": 20
+    },
+    {
+      "id": "q3",
+      "question": "fire_assessment_q3",
+      "options": [
+        "fire_assessment_q3_a",
+        "fire_assessment_q3_b",
+        "fire_assessment_q3_c",
+        "fire_assessment_q3_d"
+      ],
+      "correctOptionIndex": 0,
+      "safetyWeight": 20
+    },
+    {
+      "id": "q4",
+      "question": "fire_assessment_q4",
+      "options": [
+        "fire_assessment_q4_a",
+        "fire_assessment_q4_b",
+        "fire_assessment_q4_c",
+        "fire_assessment_q4_d"
+      ],
+      "correctOptionIndex": 0,
+      "safetyWeight": 20
+    },
+    {
+      "id": "q5",
+      "question": "fire_assessment_q5",
+      "options": [
+        "fire_assessment_q5_a",
+        "fire_assessment_q5_b",
+        "fire_assessment_q5_c",
+        "fire_assessment_q5_d"
+      ],
+      "correctOptionIndex": 0,
+      "safetyWeight": 20
+    }
+  ]
+}

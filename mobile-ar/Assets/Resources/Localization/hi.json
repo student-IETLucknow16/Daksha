@@ -1,0 +1,761 @@
+{
+  "languageCode": "hi",
+  "entries": [
+    {
+      "key": "fire_emergency_title",
+      "value": "आग और विस्फोट की आपात स्थिति"
+    },
+    {
+      "key": "scan_prompt",
+      "value": "फर्श या मेज को स्कैन करने के लिए अपने फोन को धीरे-धीरे घुमाएं"
+    },
+    {
+      "key": "tap_to_place",
+      "value": "प्रशिक्षण परिदृश्य रखने के लिए हाइलाइट की गई सतह पर टैप करें"
+    },
+    {
+      "key": "fire_emergency_description",
+      "value": "आग के खतरे को पहचानना, अलार्म बजाना, खतरे वाले क्षेत्र से बचना, सुरक्षित रूप से बाहर निकलना, और छोटी आग को बुझाने का अभ्यास करें।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_instruction",
+      "value": "मशीनरी के पास आग लग गई है। खतरे को स्वीकार करने के लिए आग को टैप करें।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_feedback_correct",
+      "value": "खतरे की पहचान हो गई। शांत रहें और प्रक्रिया का पालन करें।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_feedback_incorrect",
+      "value": "आगे बढ़ने से पहले आपको आग की पहचान करनी होगी।"
+    },
+    {
+      "key": "fire_emergency_identify_hazard_hint",
+      "value": "अपने सामने मशीनरी के पास आग की लपटें और धुआं देखें।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_instruction",
+      "value": "क्षेत्र के अन्य कर्मचारियों को सचेत करने के लिए फायर अलार्म सक्रिय करें।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_feedback_correct",
+      "value": "अलार्म सक्रिय हो गया। अन्य कर्मचारियों को सूचित कर दिया गया है।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_feedback_incorrect",
+      "value": "अलार्म सही तरीके से सक्रिय नहीं हुआ।"
+    },
+    {
+      "key": "fire_emergency_raise_alarm_hint",
+      "value": "अलार्म पैनल दीवार पर लगा है, जिस पर लाल बत्ती है।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_instruction",
+      "value": "अपनी अगली कार्रवाई की योजना बनाते समय आग के चारों ओर चिह्नित खतरे वाले क्षेत्र से दूर रहें।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_feedback_correct",
+      "value": "अच्छा — आपने आग से सुरक्षित दूरी बनाए रखी।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_feedback_incorrect",
+      "value": "आप खतरे वाले क्षेत्र में प्रवेश कर गए। यह एक गंभीर सुरक्षा उल्लंघन है।"
+    },
+    {
+      "key": "fire_emergency_avoid_hazard_zone_hint",
+      "value": "लपटों से कम से कम चिह्नित दूरी बनाए रखें।"
+    },
+    {
+      "key": "fire_emergency_find_exit_instruction",
+      "value": "निकटतम सुरक्षित निकास के लिए AR तीर का अनुसरण करें।"
+    },
+    {
+      "key": "fire_emergency_find_exit_feedback_correct",
+      "value": "आप सुरक्षित निकासी स्थान पर पहुंच गए।"
+    },
+    {
+      "key": "fire_emergency_find_exit_feedback_incorrect",
+      "value": "आप समय पर निकास तक नहीं पहुंचे।"
+    },
+    {
+      "key": "fire_emergency_find_exit_hint",
+      "value": "तीर जिस दिशा में इशारा कर रहा है उसका अनुसरण करें।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_instruction",
+      "value": "बिजली/रासायनिक आग के लिए सही अग्निशामक यंत्र चुनें (CO2, क्लास B/C)।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_feedback_correct",
+      "value": "सही विकल्प — CO2 अग्निशामक यंत्र बिजली/रासायनिक आग के लिए सुरक्षित हैं।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_feedback_incorrect",
+      "value": "गलत अग्निशामक यंत्र — इस प्रकार की आग पर पानी या फोम खतरनाक हो सकता है।"
+    },
+    {
+      "key": "fire_emergency_select_extinguisher_hint",
+      "value": "पानी बिजली का संचालन करता है — मशीनरी की आग के पास इसका उपयोग न करें।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_instruction",
+      "value": "आग के आधार पर निशाना लगाएं और अग्निशामक यंत्र का उपयोग करें।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_feedback_correct",
+      "value": "आग बुझ गई। आपातकालीन प्रक्रिया पूरी हुई।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_feedback_incorrect",
+      "value": "आग सही तरीके से नहीं बुझी।"
+    },
+    {
+      "key": "fire_emergency_extinguish_fire_hint",
+      "value": "अग्निशामक की नोज़ल को लपटों के ऊपर नहीं, बल्कि आधार पर घुमाएं।"
+    },
+    {
+      "key": "gas_leak_confined_space_title",
+      "value": "गैस रिसाव / सीमित स्थान की आपात स्थिति"
+    },
+    {
+      "key": "gas_leak_confined_space_description",
+      "value": "गैस रिसाव की पहचान, सुरक्षित दूरी बनाए रखना, सही PPE चुनना, बडी सिस्टम का पालन करना, आपात स्थिति की सूचना देना, और एसेंबली पॉइंट तक निकासी का अभ्यास करें।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_instruction",
+      "value": "सीमित स्थान के प्रवेश द्वार के पास गैस रिसाव का पता चला है। खतरे को स्वीकार करने के लिए रिसाव स्रोत को टैप करें।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_feedback_correct",
+      "value": "खतरे की पहचान हो गई। सीमित स्थान के पास न जाएं।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_feedback_incorrect",
+      "value": "आगे बढ़ने से पहले आपको गैस रिसाव की पहचान करनी होगी।"
+    },
+    {
+      "key": "gas_leak_confined_space_identify_leak_hint",
+      "value": "प्रवेश द्वार के पास दिखाई देने वाले गैस/वाष्प बादल को देखें।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_instruction",
+      "value": "स्थिति का आकलन करते समय चिह्नित खतरे वाले क्षेत्र से बाहर रहें।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_feedback_correct",
+      "value": "अच्छा — आपने रिसाव से सुरक्षित दूरी बनाए रखी।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_feedback_incorrect",
+      "value": "आप बिना सुरक्षा के गैस खतरे वाले क्षेत्र में प्रवेश कर गए। यह एक गंभीर सुरक्षा उल्लंघन है।"
+    },
+    {
+      "key": "gas_leak_confined_space_maintain_safe_distance_hint",
+      "value": "सीमित स्थान के प्रवेश द्वार से कम से कम चिह्नित दूरी बनाए रखें।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_instruction",
+      "value": "किसी भी आगे की कार्रवाई से पहले सही PPE चुनें: पूर्ण रेस्पिरेटर और गैस-डिटेक्शन किट।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_feedback_correct",
+      "value": "सही — पूर्ण रेस्पिरेटर और गैस डिटेक्टर लगाया गया।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_feedback_incorrect",
+      "value": "अधूरा या गायब PPE गैस खतरे वाले क्षेत्र के लिए सुरक्षित नहीं है।"
+    },
+    {
+      "key": "gas_leak_confined_space_select_ppe_hint",
+      "value": "धूल मास्क या आंशिक उपकरण गैस रिसाव के लिए पर्याप्त नहीं है।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_instruction",
+      "value": "सीमित स्थान में प्रवेश के नियमों के अनुसार एक साथी आवश्यक है। आप कैसे आगे बढ़ेंगे, यह चुनें।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_feedback_correct",
+      "value": "सही — सीमित स्थान में कभी अकेले प्रवेश न करें।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_feedback_incorrect",
+      "value": "अकेले प्रवेश करना सीमित स्थान प्रवेश प्रक्रिया का उल्लंघन करता है। यह एक गंभीर सुरक्षा उल्लंघन है।"
+    },
+    {
+      "key": "gas_leak_confined_space_confirm_buddy_system_hint",
+      "value": "सीमित स्थान में प्रवेश के लिए हमेशा कम से कम एक अन्य प्रशिक्षित कर्मचारी की तैयार उपस्थिति आवश्यक है।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_instruction",
+      "value": "आगे कोई भी कार्रवाई करने से पहले नियंत्रण कक्ष को रिसाव की सूचना दें।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_feedback_correct",
+      "value": "नियंत्रण कक्ष को सूचित कर दिया गया। आइसोलेशन प्रक्रिया शुरू हो गई है।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_feedback_incorrect",
+      "value": "रिसाव की सूचना तुरंत नियंत्रण कक्ष को दी जानी चाहिए।"
+    },
+    {
+      "key": "gas_leak_confined_space_follow_emergency_procedure_hint",
+      "value": "नियंत्रण कक्ष से संपर्क करने के लिए रेडियो/आपातकालीन पैनल का उपयोग करें।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_instruction",
+      "value": "निर्धारित सुरक्षित एसेंबली पॉइंट के लिए AR तीर का अनुसरण करें।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_correct",
+      "value": "आप सुरक्षित एसेंबली पॉइंट पर पहुंच गए। आपातकालीन प्रक्रिया पूरी हुई।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_feedback_incorrect",
+      "value": "आप समय पर एसेंबली पॉइंट तक नहीं पहुंचे।"
+    },
+    {
+      "key": "gas_leak_confined_space_evacuate_to_assembly_point_hint",
+      "value": "खतरे वाले क्षेत्र से दूर, तीर जिस दिशा में इशारा कर रहा है उसका अनुसरण करें।"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_question",
+      "value": "आग लगने पर आपको सबसे पहले क्या करना चाहिए?"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option0",
+      "value": "इसे स्वयं बुझाने की कोशिश करें"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option1",
+      "value": "खतरे की पहचान करें और शांत रहें"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option2",
+      "value": "बिना किसी को सूचित किए तुरंत भाग जाएं"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_option3",
+      "value": "अगर छोटी लगे तो अनदेखा करें"
+    },
+    {
+      "key": "fire_emergency_quiz_q1_explanation",
+      "value": "आगे कोई भी कार्रवाई करने से पहले हमेशा खतरे की पहचान करें और उसे स्वीकार करें।"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_question",
+      "value": "अगर आप खुद आग बुझाने की योजना बना रहे हैं तो भी आपको फायर अलार्म क्यों सक्रिय करना चाहिए?"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option0",
+      "value": "अगर आप आश्वस्त हैं तो यह आवश्यक नहीं है"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option1",
+      "value": "अन्य कर्मचारियों को सचेत करने के लिए ताकि वे निकल सकें"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option2",
+      "value": "अलार्म केवल बड़ी आग के लिए होते हैं"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_option3",
+      "value": "यह केवल एक कागजी आवश्यकता को पूरा करने के लिए है"
+    },
+    {
+      "key": "fire_emergency_quiz_q2_explanation",
+      "value": "अलार्म बजाने से यह सुनिश्चित होता है कि क्षेत्र के हर कर्मचारी को निकलने का मौका मिले, चाहे आग को कैसे भी संभाला जाए।"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_question",
+      "value": "बिजली या रासायनिक आग पर किस प्रकार का अग्निशामक यंत्र उपयोग करना सुरक्षित है?"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option0",
+      "value": "पानी"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option1",
+      "value": "फोम"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option2",
+      "value": "CO2 (क्लास B/C)"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_option3",
+      "value": "कोई भी अग्निशामक यंत्र समान रूप से काम करता है"
+    },
+    {
+      "key": "fire_emergency_quiz_q3_explanation",
+      "value": "पानी और फोम बिजली का संचालन कर सकते हैं या रासायनिक आग के साथ खतरनाक प्रतिक्रिया कर सकते हैं। CO2 अग्निशामक यंत्र सुरक्षित विकल्प है।"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_question",
+      "value": "बिना सुरक्षा प्रक्रिया के सक्रिय औद्योगिक आग के कितने पास खड़ा होना सुरक्षित है?"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option0",
+      "value": "जितना स्पष्ट देखने के लिए आवश्यक हो उतना पास"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option1",
+      "value": "केवल चिह्नित सुरक्षित दूरी पर"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option2",
+      "value": "अगर आप जल्दी हैं तो बिल्कुल पास"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_option3",
+      "value": "घर के अंदर दूरी मायने नहीं रखती"
+    },
+    {
+      "key": "fire_emergency_quiz_q4_explanation",
+      "value": "खतरे वाले क्षेत्र किसी कारण से चिह्नित किए जाते हैं — चिह्नित दूरी के बाहर रहना एक अनिवार्य सुरक्षा आवश्यकता है, सुझाव नहीं।"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_question",
+      "value": "अग्निशामक यंत्र का उपयोग करते समय आपको इसे कहां निशाना बनाना चाहिए?"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option0",
+      "value": "लपटों के ऊपरी हिस्से पर"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option1",
+      "value": "धुएं पर"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option2",
+      "value": "आग के आधार पर"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_option3",
+      "value": "आग के आसपास कहीं भी"
+    },
+    {
+      "key": "fire_emergency_quiz_q5_explanation",
+      "value": "आग के आधार पर निशाना लगाने से सीधे ईंधन स्रोत को लक्षित किया जाता है, जो वास्तव में आग को बुझाता है।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_question",
+      "value": "सीमित स्थान के पास गैस रिसाव का पता चलने के बाद पहला कदम क्या है?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option0",
+      "value": "स्रोत की जांच के लिए अंदर जाएं"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option1",
+      "value": "खतरे को स्वीकार करें और खतरे वाले क्षेत्र से बाहर रहें"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option2",
+      "value": "इसके अपने आप फैलने का इंतजार करें"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_option3",
+      "value": "पास में काम करना जारी रखें"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q1_explanation",
+      "value": "पहले खतरे की पहचान करें, फिर सुरक्षित दूरी बनाए रखें — संदिग्ध गैस रिसाव के पास कभी सीधे न जाएं।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_question",
+      "value": "गैस खतरे वाले क्षेत्र के पास जाने से पहले किस PPE की आवश्यकता होती है?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option0",
+      "value": "एक धूल मास्क पर्याप्त है"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option1",
+      "value": "थोड़े समय के संपर्क के लिए किसी विशेष PPE की जरूरत नहीं"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option2",
+      "value": "पूर्ण रेस्पिरेटर और गैस-डिटेक्शन किट"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_option3",
+      "value": "केवल सामान्य काम के दस्ताने"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q2_explanation",
+      "value": "धूल मास्क जैसी आंशिक सुरक्षा विषैली या ज्वलनशील गैसों से रक्षा नहीं करती — पूर्ण रेस्पिरेटर और डिटेक्शन उपकरण आवश्यक हैं।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_question",
+      "value": "सीमित स्थान में प्रवेश के लिए बडी सिस्टम अनिवार्य क्यों है?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option0",
+      "value": "यह केवल एक सुझाव है, नियम नहीं"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option1",
+      "value": "ताकि कुछ गलत होने पर कोई मदद के लिए बुला सके"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option2",
+      "value": "काम को तेजी से बांटने के लिए"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_option3",
+      "value": "यह वास्तव में आवश्यक नहीं है"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q3_explanation",
+      "value": "सीमित स्थान किसी कर्मचारी को जल्दी असमर्थ कर सकते हैं (विषैला वातावरण, ऑक्सीजन की कमी) — तैयार साथी तुरंत अलार्म बजा सकता है और मदद मंगवा सकता है।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_question",
+      "value": "ज्ञात गैस रिसाव वाले सीमित स्थान में प्रवेश करने से पहले क्या होना चाहिए?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option0",
+      "value": "चोटों की जांच के लिए तुरंत अंदर जाएं"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option1",
+      "value": "नियंत्रण कक्ष को सूचित करें और आइसोलेशन प्रक्रिया की प्रतीक्षा करें"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option2",
+      "value": "बाद में केवल अपने पर्यवेक्षक को बताएं"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_option3",
+      "value": "कुछ नहीं — सामान्य रूप से आगे बढ़ें"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q4_explanation",
+      "value": "नियंत्रण कक्ष को सूचित किया जाना चाहिए ताकि किसी के अंदर जाने से पहले आइसोलेशन और निगरानी प्रक्रिया शुरू हो सके।"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_question",
+      "value": "अगर आप गलती से बिना उचित प्रक्रिया के गैस खतरे वाले क्षेत्र में प्रवेश कर जाएं तो सही कार्रवाई क्या है?"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option0",
+      "value": "जैसे कुछ हुआ ही नहीं, वैसे जारी रखें"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option1",
+      "value": "यह एक गंभीर सुरक्षा उल्लंघन है — ऐसा कभी नहीं होना चाहिए और इसकी सूचना दी जानी चाहिए"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option2",
+      "value": "जब तक कोई गंध महसूस न हो तब तक ठीक है"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_option3",
+      "value": "केवल तभी समस्या है जब चक्कर महसूस हो"
+    },
+    {
+      "key": "gas_leak_confined_space_quiz_q5_explanation",
+      "value": "प्रक्रिया का पालन किए बिना खतरे वाले क्षेत्र में प्रवेश करना एक गंभीर सुरक्षा विफलता माना जाता है — भले ही लक्षण तुरंत दिखाई न दें, जोखिम मौजूद रहता है।"
+    },
+    {
+      "key": "app_name",
+      "value": "औद्योगिक सुरक्षा AR प्रशिक्षक"
+    },
+    {
+      "key": "splash_loading",
+      "value": "लोड हो रहा है..."
+    },
+    {
+      "key": "login_title",
+      "value": "लॉग इन करें"
+    },
+    {
+      "key": "login_identifier_placeholder",
+      "value": "वर्कर ID, ईमेल, या फोन नंबर"
+    },
+    {
+      "key": "login_password_placeholder",
+      "value": "पासवर्ड"
+    },
+    {
+      "key": "login_button",
+      "value": "लॉग इन करें"
+    },
+    {
+      "key": "login_error_invalid",
+      "value": "अमान्य लॉगिन जानकारी। कृपया पुनः प्रयास करें।"
+    },
+    {
+      "key": "register_title",
+      "value": "पंजीकरण करें"
+    },
+    {
+      "key": "register_button",
+      "value": "खाता बनाएं"
+    },
+    {
+      "key": "language_select_title",
+      "value": "अपनी भाषा चुनें"
+    },
+    {
+      "key": "language_option_english",
+      "value": "English"
+    },
+    {
+      "key": "language_option_hindi",
+      "value": "हिन्दी (Hindi)"
+    },
+    {
+      "key": "language_option_santali",
+      "value": "Santali"
+    },
+    {
+      "key": "dashboard_welcome",
+      "value": "वापसी पर स्वागत है"
+    },
+    {
+      "key": "dashboard_modules_button",
+      "value": "प्रशिक्षण मॉड्यूल"
+    },
+    {
+      "key": "dashboard_history_button",
+      "value": "प्रशिक्षण इतिहास"
+    },
+    {
+      "key": "dashboard_profile_button",
+      "value": "प्रोफ़ाइल और सेटिंग्स"
+    },
+    {
+      "key": "module_list_title",
+      "value": "प्रशिक्षण मॉड्यूल"
+    },
+    {
+      "key": "module_details_start_button",
+      "value": "प्रशिक्षण शुरू करें"
+    },
+    {
+      "key": "ar_prep_title",
+      "value": "शुरू करने से पहले"
+    },
+    {
+      "key": "ar_prep_instructions",
+      "value": "एक खुली, अच्छी रोशनी वाली जगह ढूंढें जहां फर्श या टेबल की सतह साफ हो। स्कैनिंग शुरू करने के लिए अपने कैमरे को उस पर पॉइंट करें।"
+    },
+    {
+      "key": "ar_scan_prompt",
+      "value": "फर्श या टेबल को स्कैन करने के लिए अपने फोन को धीरे-धीरे घुमाएं"
+    },
+    {
+      "key": "ar_scan_tap_to_place",
+      "value": "प्रशिक्षण परिदृश्य रखने के लिए हाइलाइट की गई सतह पर टैप करें"
+    },
+    {
+      "key": "ar_scan_placed_confirm",
+      "value": "परिदृश्य रखा गया!"
+    },
+    {
+      "key": "scenario_result_pass_title",
+      "value": "परिदृश्य पूरा हुआ"
+    },
+    {
+      "key": "scenario_result_critical_title",
+      "value": "गंभीर सुरक्षा विफलता"
+    },
+    {
+      "key": "scenario_result_score_label",
+      "value": "स्कोर"
+    },
+    {
+      "key": "scenario_result_retry_button",
+      "value": "पुनः प्रयास करें"
+    },
+    {
+      "key": "scenario_result_continue_button",
+      "value": "मूल्यांकन जारी रखें"
+    },
+    {
+      "key": "final_result_passed_title",
+      "value": "पास हुए"
+    },
+    {
+      "key": "final_result_failed_title",
+      "value": "पास नहीं हुए — स्कोर बहुत कम"
+    },
+    {
+      "key": "final_result_critical_title",
+      "value": "पास नहीं हुए — गंभीर सुरक्षा विफलता"
+    },
+    {
+      "key": "final_result_ar_label",
+      "value": "AR प्रदर्शन"
+    },
+    {
+      "key": "final_result_safety_label",
+      "value": "सुरक्षा निर्णय"
+    },
+    {
+      "key": "final_result_quiz_label",
+      "value": "प्रश्नोत्तरी"
+    },
+    {
+      "key": "final_result_final_label",
+      "value": "अंतिम स्कोर"
+    },
+    {
+      "key": "final_result_certificate_button",
+      "value": "प्रमाणपत्र देखें"
+    },
+    {
+      "key": "certificate_title",
+      "value": "पूर्णता प्रमाणपत्र"
+    },
+    {
+      "key": "certificate_worker_label",
+      "value": "कर्मचारी"
+    },
+    {
+      "key": "certificate_module_label",
+      "value": "प्रशिक्षण मॉड्यूल"
+    },
+    {
+      "key": "certificate_score_label",
+      "value": "स्कोर"
+    },
+    {
+      "key": "certificate_issued_label",
+      "value": "जारी किया गया"
+    },
+    {
+      "key": "certificate_verify_label",
+      "value": "सत्यापित करने के लिए स्कैन करें"
+    },
+    {
+      "key": "scenario_result_critical_generic_message",
+      "value": "एक महत्वपूर्ण सुरक्षा चरण का सही ढंग से पालन नहीं किया गया। प्रतिक्रिया की समीक्षा करें और पुनः प्रयास करें।"
+    },
+    {
+      "key": "quiz_feedback_correct_prefix",
+      "value": "सही।"
+    },
+    {
+      "key": "quiz_feedback_incorrect_prefix",
+      "value": "बिल्कुल सही नहीं।"
+    },
+    {
+      "key": "final_result_complete_title",
+      "value": "मूल्यांकन पूर्ण"
+    },
+    {
+      "key": "fire_assessment_q1",
+      "value": "आग की पहचान होने पर आपको सबसे पहले क्या करना चाहिए?"
+    },
+    {
+      "key": "fire_assessment_q1_a",
+      "value": "खतरे को पहचानें और शांत रहें"
+    },
+    {
+      "key": "fire_assessment_q1_b",
+      "value": "सीधे आग की ओर दौड़ें"
+    },
+    {
+      "key": "fire_assessment_q1_c",
+      "value": "धुएँ से भरे क्षेत्र में प्रवेश करें"
+    },
+    {
+      "key": "fire_assessment_q1_d",
+      "value": "इसे नज़रअंदाज़ करें और काम जारी रखें"
+    },
+
+    {
+      "key": "fire_assessment_q2",
+      "value": "फायर अलार्म क्यों सक्रिय किया जाना चाहिए?"
+    },
+    {
+      "key": "fire_assessment_q2_a",
+      "value": "अन्य श्रमिकों को सचेत करने और आपातकालीन प्रतिक्रिया शुरू करने के लिए"
+    },
+    {
+      "key": "fire_assessment_q2_b",
+      "value": "आग को अपने आप बुझाने के लिए"
+    },
+    {
+      "key": "fire_assessment_q2_c",
+      "value": "अग्निशामक यंत्र को अनलॉक करने के लिए"
+    },
+    {
+      "key": "fire_assessment_q2_d",
+      "value": "सारी बिजली अपने आप बंद करने के लिए"
+    },
+
+    {
+      "key": "fire_assessment_q3",
+      "value": "आपको चिन्हित खतरे वाले क्षेत्र से बाहर क्यों रहना चाहिए?"
+    },
+    {
+      "key": "fire_assessment_q3_a",
+      "value": "आग, गर्मी और अन्य खतरों के संपर्क को कम करने के लिए"
+    },
+    {
+      "key": "fire_assessment_q3_b",
+      "value": "क्योंकि अंदर का फर्श हमेशा गीला रहता है"
+    },
+    {
+      "key": "fire_assessment_q3_c",
+      "value": "क्योंकि वहाँ अलार्म सुनाई नहीं देता"
+    },
+    {
+      "key": "fire_assessment_q3_d",
+      "value": "क्योंकि अग्निशामक यंत्र केवल दूर से काम करता है"
+    },
+
+    {
+      "key": "fire_assessment_q4",
+      "value": "इस प्रशिक्षण परिदृश्य में विद्युत/रासायनिक आग के लिए कौन-सा अग्निशामक उपयुक्त है?"
+    },
+    {
+      "key": "fire_assessment_q4_a",
+      "value": "CO2"
+    },
+    {
+      "key": "fire_assessment_q4_b",
+      "value": "पानी"
+    },
+    {
+      "key": "fire_assessment_q4_c",
+      "value": "कोई भी अग्निशामक"
+    },
+    {
+      "key": "fire_assessment_q4_d",
+      "value": "किसी भी अग्निशामक का उपयोग नहीं किया जा सकता"
+    },
+
+    {
+      "key": "fire_assessment_q5",
+      "value": "छोटी आग से लड़ते समय अग्निशामक यंत्र को कहाँ निशाना बनाना चाहिए?"
+    },
+    {
+      "key": "fire_assessment_q5_a",
+      "value": "आग की लपटों के आधार पर"
+    },
+    {
+      "key": "fire_assessment_q5_b",
+      "value": "आग की लपटों के ऊपर"
+    },
+    {
+      "key": "fire_assessment_q5_c",
+      "value": "छत की ओर"
+    },
+    {
+      "key": "fire_assessment_q5_d",
+      "value": "आग से दूर"
+    },
+    {
+      "key": "assessment_title",
+      "value": "फायर सुरक्षा मूल्यांकन"
+    },
+    {
+      "key": "quiz_question_number",
+      "value": "प्रश्न"
+    }
+  ]
+}
