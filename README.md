@@ -43,3 +43,8 @@ Scripts implemented so far:
 Not yet started: Fire scenario (Phase 2), Gas Leak scenario (Phase 3), Assessment
 (Phase 4), Backend (Phase 5), Offline (Phase 6), Localization (Phase 7),
 Certificates (Phase 8), Admin Dashboard (Phase 9), Integration (Phase 10).
+
+
+
+ API KEY : alch_KeRstLg95fPuEC68wOnfO
+ Etherium Endpoint :  https://eth-mainnet.g.alchemy.com/v2/alch_KeRstLg95fPuEC68wOnfO

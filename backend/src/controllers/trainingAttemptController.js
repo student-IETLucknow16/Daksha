@@ -121,8 +121,40 @@ const completeTrainingAttempt = async (req, res) => {
         attempt.completedAt = new Date();
 
         if (Array.isArray(mistakes)) {
-            attempt.mistakes = mistakes;
+    attempt.mistakes = mistakes.map((mistake) => {
+        // Already in the correct format
+        if (typeof mistake === "object" && mistake !== null) {
+            return {
+                stepId: mistake.stepId,
+                action: mistake.action
+            };
         }
+
+        // Support the current mobile app format:
+        // "find_exit: Timed out"
+        if (typeof mistake === "string") {
+            const separatorIndex = mistake.indexOf(":");
+
+            if (separatorIndex !== -1) {
+                return {
+                    stepId: mistake
+                        .substring(0, separatorIndex)
+                        .trim(),
+                    action: mistake
+                        .substring(separatorIndex + 1)
+                        .trim()
+                };
+            }
+
+            return {
+                stepId: mistake.trim(),
+                action: "Unknown"
+            };
+        }
+
+        return null;
+    }).filter(Boolean);
+}
 
         await attempt.save();
 

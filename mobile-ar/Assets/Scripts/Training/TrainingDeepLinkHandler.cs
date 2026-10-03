@@ -15,6 +15,8 @@ namespace SIH26041.Training
             !string.IsNullOrEmpty(ModuleId) &&
             !string.IsNullOrEmpty(AttemptId);
 
+        private string pendingUrl;
+
         private void Awake()
         {
             if (Instance != null && Instance != this)
@@ -28,16 +30,33 @@ namespace SIH26041.Training
 
             Application.deepLinkActivated += HandleDeepLink;
 
-            // Handles the case where Unity was completely closed
-            // and Android launches it using the deep link.
+            Debug.Log(
+                "[TrainingDeepLinkHandler] Awake."
+            );
+
+            Debug.Log(
+                "[TrainingDeepLinkHandler] Application.absoluteURL: "
+                + Application.absoluteURL
+            );
+
             if (!string.IsNullOrEmpty(Application.absoluteURL))
             {
-                HandleDeepLink(Application.absoluteURL);
+                pendingUrl = Application.absoluteURL;
             }
         }
 
         private void Start()
         {
+            Debug.Log(
+                "[TrainingDeepLinkHandler] Start."
+            );
+
+            if (!string.IsNullOrEmpty(pendingUrl))
+            {
+                HandleDeepLink(pendingUrl);
+                pendingUrl = null;
+            }
+
             if (HasTrainingLaunchData)
             {
                 ApplyModuleToScenario();
@@ -51,15 +70,27 @@ namespace SIH26041.Training
 
         private void HandleDeepLink(string url)
         {
-            Debug.Log($"[TrainingDeepLinkHandler] Deep link received: {url}");
+            Debug.Log(
+                "[TrainingDeepLinkHandler] Deep link received: "
+                + url
+            );
 
             if (string.IsNullOrEmpty(url))
-                return;
+            {
+                Debug.LogError(
+                    "[TrainingDeepLinkHandler] Received empty URL."
+                );
 
-            if (!url.StartsWith("sih26041://training", StringComparison.OrdinalIgnoreCase))
+                return;
+            }
+
+            if (!url.StartsWith(
+                "sih26041://training",
+                StringComparison.OrdinalIgnoreCase))
             {
                 Debug.LogWarning(
-                    $"[TrainingDeepLinkHandler] Ignoring unknown URL: {url}"
+                    "[TrainingDeepLinkHandler] Ignoring unknown URL: "
+                    + url
                 );
 
                 return;
@@ -74,62 +105,109 @@ namespace SIH26041.Training
             catch (Exception error)
             {
                 Debug.LogError(
-                    $"[TrainingDeepLinkHandler] Invalid URL: {error.Message}"
+                    "[TrainingDeepLinkHandler] Invalid URL: "
+                    + error.Message
                 );
 
                 return;
             }
 
-            ModuleId = GetQueryParameter(uri, "moduleId");
-            AttemptId = GetQueryParameter(uri, "attemptId");
+            ModuleId =
+                GetQueryParameter(
+                    uri,
+                    "moduleId"
+                );
+
+            AttemptId =
+                GetQueryParameter(
+                    uri,
+                    "attemptId"
+                );
 
             Debug.Log(
-                $"[TrainingDeepLinkHandler] Module ID: {ModuleId}"
+                "[TrainingDeepLinkHandler] Module ID: "
+                + ModuleId
             );
 
             Debug.Log(
-                $"[TrainingDeepLinkHandler] Attempt ID: {AttemptId}"
+                "[TrainingDeepLinkHandler] Attempt ID: "
+                + AttemptId
             );
 
-            if (HasTrainingLaunchData)
+            if (!string.IsNullOrEmpty(ModuleId) &&
+                !string.IsNullOrEmpty(AttemptId))
             {
                 Debug.Log(
-                    "[TrainingDeepLinkHandler] Training launch data received successfully."
+                    "[TrainingDeepLinkHandler] " +
+                    "Training launch data received successfully."
                 );
+
                 ApplyModuleToScenario();
             }
             else
             {
                 Debug.LogError(
-                    "[TrainingDeepLinkHandler] Missing moduleId or attemptId."
+                    "[TrainingDeepLinkHandler] " +
+                    "Module ID or Attempt ID is missing."
                 );
             }
         }
 
-        private string GetQueryParameter(Uri uri, string key)
+        private string GetQueryParameter(
+            Uri uri,
+            string key
+        )
         {
             string query = uri.Query;
 
+            Debug.Log(
+                "[TrainingDeepLinkHandler] Query: "
+                + query
+            );
+
             if (string.IsNullOrEmpty(query))
+            {
                 return null;
+            }
 
             if (query.StartsWith("?"))
+            {
                 query = query.Substring(1);
+            }
 
-            string[] parameters = query.Split('&');
+            string[] parameters =
+                query.Split('&');
 
             foreach (string parameter in parameters)
             {
-                string[] parts = parameter.Split('=');
+                string[] parts =
+                    parameter.Split(
+                        new[] { '=' },
+                        2
+                    );
 
                 if (parts.Length != 2)
+                {
                     continue;
+                }
 
                 string parameterKey =
-                    Uri.UnescapeDataString(parts[0]);
+                    Uri.UnescapeDataString(
+                        parts[0]
+                    );
 
                 string parameterValue =
-                    Uri.UnescapeDataString(parts[1]);
+                    Uri.UnescapeDataString(
+                        parts[1]
+                    );
+
+                Debug.Log(
+                    "[TrainingDeepLinkHandler] " +
+                    "Parameter: " +
+                    parameterKey +
+                    " = " +
+                    parameterValue
+                );
 
                 if (string.Equals(
                     parameterKey,
@@ -146,31 +224,70 @@ namespace SIH26041.Training
         public void ApplyModuleToScenario()
         {
             if (!HasTrainingLaunchData)
+            {
+                Debug.LogWarning(
+                    "[TrainingDeepLinkHandler] " +
+                    "Cannot apply scenario because " +
+                    "training launch data is incomplete."
+                );
+
                 return;
+            }
 
             if (ScenarioManager.Instance == null)
             {
                 Debug.LogWarning(
-                    "[TrainingDeepLinkHandler] ScenarioManager is not ready yet."
+                    "[TrainingDeepLinkHandler] " +
+                    "ScenarioManager is not ready yet. " +
+                    "Will retry."
                 );
+
+                Invoke(
+                    nameof(RetryApplyModuleToScenario),
+                    0.5f
+                );
+
                 return;
             }
 
-            bool applied = ScenarioManager.Instance.SetScenarioByModuleId(ModuleId);
+            bool applied =
+                ScenarioManager.Instance
+                    .SetScenarioByModuleId(
+                        ModuleId
+                    );
 
             if (applied)
             {
                 Debug.Log(
-                    "[TrainingDeepLinkHandler] Scenario selected: " + ModuleId
+                    "[TrainingDeepLinkHandler] " +
+                    "Scenario selected: " +
+                    ModuleId
                 );
             }
             else
             {
                 Debug.LogError(
-                    "[TrainingDeepLinkHandler] Failed to select scenario for moduleId: "
+                    "[TrainingDeepLinkHandler] " +
+                    "Failed to select scenario for moduleId: "
                     + ModuleId
                 );
             }
         }
+
+        private void RetryApplyModuleToScenario()
+        {
+            ApplyModuleToScenario();
+        }
+
+        [ContextMenu("Test Training Deep Link")]
+        private void TestTrainingDeepLink()
+        {
+            HandleDeepLink(
+                "sih26041://training" +
+                "?moduleId=fire_emergency" +
+                "&attemptId=test-attempt-123"
+            );
+        }
     }
 }
+

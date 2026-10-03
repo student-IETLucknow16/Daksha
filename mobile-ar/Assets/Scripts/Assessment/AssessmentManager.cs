@@ -81,32 +81,51 @@ namespace SIH26041.Assessment
                 scenario.OnScenarioEnded -= HandleScenarioEnded;
         }
 
-        private void HandleScenarioEnded(ScenarioResult result, int scorePercent)
+        private void HandleScenarioEnded(
+       ScenarioResult result,
+       int scorePercent
+   )
         {
-            Debug.Log($"[AssessmentManager] Scenario ended: {result}, Score: {scorePercent}%");
+            Debug.Log(
+                $"[AssessmentManager] Scenario ended: {result}, Score: {scorePercent}%"
+            );
 
-            ARPerformancePercent = Mathf.Clamp(scorePercent, 0, 100);
+            ARPerformancePercent =
+                Mathf.Clamp(scorePercent, 0, 100);
 
             if (result == ScenarioResult.FailedCriticalError)
             {
                 Result = AssessmentResult.CriticalFailure;
-                SafetyDecisionPercent = CalculateSafetyDecisionScore();
+
+                SafetyDecisionPercent =
+                    CalculateSafetyDecisionScore();
+
                 QuizScorePercent = 0;
-                FinalScorePercent = CalculateFinalScore();
-                OnAssessmentEnded?.Invoke(ARPerformancePercent, SafetyDecisionPercent,
-                    QuizScorePercent, FinalScorePercent, Result);
+
+                FinalScorePercent =
+                    CalculateFinalScore();
+
+                OnAssessmentEnded?.Invoke(
+                    ARPerformancePercent,
+                    SafetyDecisionPercent,
+                    QuizScorePercent,
+                    FinalScorePercent,
+                    Result
+                );
+
                 return;
             }
 
             if (result != ScenarioResult.PassedNumeric)
                 return;
 
-            if (scenarioResultPanel != null)
-                scenarioResultPanel.SetActive(false);
+            Debug.Log(
+                "[AssessmentManager] Scenario passed. " +
+                "Unity assessment is disabled because Expo handles the assessment."
+            );
 
-            BeginAssessment();
+            return;
         }
-
         public void BeginAssessment()
         {
             CurrentQuiz = AssessmentQuizData.LoadFromResources(quizResourcePath);
